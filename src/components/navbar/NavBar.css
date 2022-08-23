@@ -1,0 +1,39 @@
+.nav__component {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  z-index: 1;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  opacity: 0.9;
+
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 0 rgb(0 0 0 / 10%);
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 0 rgb(0 0 0 / 10%);
+  font-weight: 500;
+  line-height: 23px;
+}
+
+.nav__header {
+  display: flex;
+  align-items: center;
+  width: 20%;
+}
+
+.logo {
+  width: 30%;
+}
+
+.links {
+  text-decoration: none;
+  width: 80%;
+  padding: 10px;
+  margin-right: 20px;
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
