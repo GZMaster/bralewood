@@ -12,16 +12,16 @@ function App() {
       <div>
         {isPageWide ? (
           <NavBar className="navbar" />
-        ) : (
-          // <SideBar
-          //   pageWrapId={"page-wrap"}
-          //   outerContainerId={"outer-container"}
-          //   className="sidebar"
-          // />
+        ) : null
+        // <SideBar
+        //   pageWrapId={"page-wrap"}
+        //   outerContainerId={"outer-container"}
+        //   className="sidebar"
+        // />
 
-          // remove later
-          <NavBar className="navbar" />
-        )}
+        // remove later
+        // <NavBar className="navbar" />
+        }
       </div>
       <Outlet className="body" />
     </div>
