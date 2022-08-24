@@ -10,3 +10,7 @@
   background-color: #dd3333;
   overflow: hidden;
 }
+.NavBar {
+  height: 80px;
+  display: block;
+}
