@@ -2,15 +2,12 @@
   position: fixed;
   display: flex;
   width: 100%;
-  z-index: 1;
+  z-index: 100;
   justify-content: space-between;
   padding: 20px;
   align-items: center;
   opacity: 0.9;
-
   background-color: #fff;
-  -webkit-box-shadow: 0 1px 0 rgb(0 0 0 / 10%);
-  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 0 rgb(0 0 0 / 10%);
   font-weight: 500;
   line-height: 23px;
@@ -20,10 +17,15 @@
   display: flex;
   align-items: center;
   width: 20%;
+  margin-left: 3%;
 }
 
 .logo {
   width: 30%;
+}
+
+.links__content {
+  margin-right: 2%;
 }
 
 .links {
@@ -31,9 +33,13 @@
   width: 80%;
   padding: 10px;
   margin-right: 20px;
-  color: black;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.selected {
+  color: #2ea3f2;
 }
 
 a:hover {
-  color: white;
+  color: rgb(173, 216, 230);
 }

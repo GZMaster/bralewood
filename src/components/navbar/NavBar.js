@@ -1,30 +1,48 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../../assets/PedagogyLogo__NoBackGround.png";
-import "./navbar.css";
+import logo from "../../assets/Logo.jpg";
+import "./NavBar.css";
 
 const NavBar = () => {
+  const [selectPage, setSelectPage] = useState("Home");
+
   return (
-    <header className="nav__component">
+    <div className="nav__component">
       <div className="nav__header">
         <img className="logo" src={logo} alt="" />
       </div>
 
       <div className="links__content">
-        <NavLink className="links" to="/">
+        <NavLink
+          className={selectPage === "Home" ? "links selected" : "links"}
+          to="/"
+          onClick={() => setSelectPage("Home")}
+        >
           Home
         </NavLink>
-        <NavLink className="links" to="/about">
+        <NavLink
+          className={selectPage === "About" ? "links selected" : "links"}
+          to="/about"
+          onClick={() => setSelectPage("About")}
+        >
           About
         </NavLink>
-        <NavLink className="links" to="/services">
+        <NavLink
+          className={selectPage === "Services" ? "links selected" : "links"}
+          to="/services"
+          onClick={() => setSelectPage("Services")}
+        >
           Services
         </NavLink>
-        <NavLink className="links" to="/contact">
+        <NavLink
+          className={selectPage === "Contact" ? "links selected" : "links"}
+          to="/contact"
+          onClick={() => setSelectPage("Contact")}
+        >
           Contact
         </NavLink>
       </div>
-    </header>
+    </div>
   );
 };
 
