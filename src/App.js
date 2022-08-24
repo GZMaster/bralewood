@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      <div>
+      <div className="NavBar">
         {isPageWide ? (
           <NavBar className="navbar" />
         ) : null
