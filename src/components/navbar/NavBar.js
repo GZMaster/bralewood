@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import Hamburger from "../hamburger/Hamburger";
+import BurgerMenu from "../hamburger/BurgerMenu";
 import UseMediaQuery from "../mediaquery/UseMediaQuery";
 import logo from "../../assets/Logo.jpg";
 import "./NavBar.css";
@@ -47,7 +47,7 @@ const NavBar = () => {
           </NavLink>
         </div>
       ) : (
-        <Hamburger />
+        <BurgerMenu />
       )}
     </div>
   );
