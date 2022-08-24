@@ -1,10 +1,10 @@
 import React from "react";
 import Banner from "../../components/banner/Banner";
-import "./Home.css";
+import "./Home.scss";
 
 const Home = () => {
   return (
-    <div className="Home Container">
+    <div className="home__Container">
       <Banner />
     </div>
   );
