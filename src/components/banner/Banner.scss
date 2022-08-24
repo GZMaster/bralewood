@@ -75,13 +75,14 @@
   transform-style: preserve-3d;
   transform: translateZ(2rem);
   transition: opacity 0.3s linear;
-  text-shadow: 0 0.1rem 1rem #000;
+  text-shadow: 0 0.1rem 1rem #fff;
   opacity: 0;
 
   .slideSubtitle,
   .slideTitle {
     font-size: 2rem;
     font-weight: normal;
+    color: #000;
     letter-spacing: 0.2ch;
     text-transform: uppercase;
     margin: 0;
@@ -93,7 +94,8 @@
 
   .slideDescription {
     margin: 0;
-    font-size: 0.8rem;
+    color: #000;
+    font-size: 1.2rem;
     letter-spacing: 0.2ch;
   }
 }
