@@ -43,15 +43,15 @@
 }
 
 .slide {
-  //transform-style: preserve-3d;
+  transform-style: preserve-3d;
   // border: solid 1px red;
 
-  // &[data-active] {
-  //   .slideContent > * {
-  //     transform: none;
-  //     opacity: 1;
-  //   }
-  // }
+  &[data-active] {
+    .slideContent > * {
+      transform: none;
+      opacity: 1;
+    }
+  }
 }
 
 .slideContent {

@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import BurgerMenu from "../hamburger/BurgerMenu";
+import UseMediaQuery from "../mediaquery/UseMediaQuery";
 import logo from "../../assets/Logo.jpg";
 import "./NavBar.css";
 
 const NavBar = () => {
   const [selectPage, setSelectPage] = useState("Home");
+  let isPageWide = UseMediaQuery("(min-width: 860px)");
 
   return (
     <div className="nav__component">
@@ -12,36 +15,40 @@ const NavBar = () => {
         <img className="logo" src={logo} alt="" />
       </div>
 
-      <div className="links__content">
-        <NavLink
-          className={selectPage === "Home" ? "links selected" : "links"}
-          to="/"
-          onClick={() => setSelectPage("Home")}
-        >
-          Home
-        </NavLink>
-        <NavLink
-          className={selectPage === "About" ? "links selected" : "links"}
-          to="/about"
-          onClick={() => setSelectPage("About")}
-        >
-          About
-        </NavLink>
-        <NavLink
-          className={selectPage === "Services" ? "links selected" : "links"}
-          to="/services"
-          onClick={() => setSelectPage("Services")}
-        >
-          Services
-        </NavLink>
-        <NavLink
-          className={selectPage === "Contact" ? "links selected" : "links"}
-          to="/contacts"
-          onClick={() => setSelectPage("Contact")}
-        >
-          Contact
-        </NavLink>
-      </div>
+      {isPageWide ? (
+        <div className="links__content">
+          <NavLink
+            className={selectPage === "Home" ? "links selected" : "links"}
+            to="/"
+            onClick={() => setSelectPage("Home")}
+          >
+            Home
+          </NavLink>
+          <NavLink
+            className={selectPage === "About" ? "links selected" : "links"}
+            to="/about"
+            onClick={() => setSelectPage("About")}
+          >
+            About
+          </NavLink>
+          <NavLink
+            className={selectPage === "Services" ? "links selected" : "links"}
+            to="/services"
+            onClick={() => setSelectPage("Services")}
+          >
+            Services
+          </NavLink>
+          <NavLink
+            className={selectPage === "Contact" ? "links selected" : "links"}
+            to="/contacts"
+            onClick={() => setSelectPage("Contact")}
+          >
+            Contact
+          </NavLink>
+        </div>
+      ) : (
+        <BurgerMenu />
+      )}
     </div>
   );
 };

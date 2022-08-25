@@ -7,3 +7,52 @@
     overflow: hidden;
     background-color: #dd3333;
 }
+
+.home_Wrapper {
+    width: 95%;
+  margin: auto;
+  background-color: white;
+  padding-bottom: 80px;
+}
+
+
+.home_Top {
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../../assets/money-2724235_1920.jpg");
+  }
+  .home_Top h2 {
+    font-size: 38px;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 1.5;
+    align-self: center;
+    justify-self: center;
+    color: rgba($color: #000000, $alpha: .6);
+    text-shadow: 0 0.1rem 1rem #fff;
+  }
+  .home_Wrapper h4 {
+    padding-top: 35px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #000098;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 26px;
+  }
+
+  @media screen and (max-width: 480px) {
+    .home_Wrapper {
+      width: 100%;
+    }
+    .home__Container {
+      padding: 15px;
+    }
+  }
+  
