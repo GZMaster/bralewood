@@ -22,7 +22,7 @@
 }
 
 .logo {
-  width: 30%;
+  width: 40%;
 }
 
 .links__content {
@@ -43,4 +43,10 @@
 
 a:hover {
   color: rgb(173, 216, 230);
+}
+
+@media screen and (max-width: 480px) {
+  .logo {
+    width: 100%;
+  }
 }
