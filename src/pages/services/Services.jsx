@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import LearnMoreBtn from "../../components/buttons/learnmore_btn/LearnMoreBtn";
 import Card from "../../components/Card/Card";
 import Data from "../../Data/CardData";
 import "./Services.css";
@@ -13,7 +12,7 @@ const Services = () => {
           <h2>OUR SERVICES</h2>
         </div>
         <h4>OUR SERVICES INCLUDE</h4>
-        <Card items={cardData} detailButton={LearnMoreBtn} />
+        <Card items={cardData} detailButton={<button className="learnBtn">Learn More</button>} />
       </div>
       <div className="Footer"></div>
     </section>
