@@ -2,15 +2,15 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./Card.css";
 
-const Card = ({ items, detailButton = {} }) => {
+const Card = ({ items, detailButton, cardClassWrapper, cardClass }) => {
   return (
-    <div className="Card_Wrapper">
+    <div className={cardClassWrapper ? cardClassWrapper : "Card_Wrapper"}>
       {items.map((cardData) => {
         const { image, title, text, id } = cardData;
         return (
-          <article className="Card" key={id}>
+          <article className={cardClass ? cardClass : "Card"} key={id}>
             <div className="Card_Image">
-              <img src={image} alt={title} />
+              {image ? <img src={image} alt={title} /> : null}
             </div>
             <h6>{title}</h6>
             <p>{text}</p>
@@ -25,5 +25,7 @@ const Card = ({ items, detailButton = {} }) => {
 Card.propTypes = {
   items: PropTypes.object,
   detailButton: PropTypes.any,
+  cardClassWrapper: PropTypes.string,
+  cardClass: PropTypes.string,
 };
 export default Card;
