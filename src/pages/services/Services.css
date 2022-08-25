@@ -39,7 +39,7 @@
 }
 .Card_Wrapper {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-around;
   gap: 5px;
 }

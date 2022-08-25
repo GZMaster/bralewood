@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./Card.css";
 
-const Card = ({ items, detailButton, cardClassWrapper, cardClass }) => {
+const Card = ({ items, cardClassWrapper, cardClass }) => {
   return (
     <div className={cardClassWrapper ? cardClassWrapper : "Card_Wrapper"}>
       {items.map((cardData) => {
@@ -14,7 +14,6 @@ const Card = ({ items, detailButton, cardClassWrapper, cardClass }) => {
             </div>
             <h6>{title}</h6>
             <p>{text}</p>
-            <div>{detailButton}</div>
           </article>
         );
       })}
@@ -24,7 +23,6 @@ const Card = ({ items, detailButton, cardClassWrapper, cardClass }) => {
 
 Card.propTypes = {
   items: PropTypes.object,
-  detailButton: PropTypes.any,
   cardClassWrapper: PropTypes.string,
   cardClass: PropTypes.string,
 };
