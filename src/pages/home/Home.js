@@ -1,12 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import Banner from "../../components/banner/Banner";
 import Card from "../../components/Card/Card";
-import Data from "../../Data/CardData";
 import "./Home.scss";
 
 const Home = () => {
-  const [cardData] = useState(Data);
-
   return (
     <div className="home__Container">
       <Banner />
@@ -30,8 +27,26 @@ const Home = () => {
         </div>
         <h4>WHAT WE DO</h4>
         <Card
-          items={cardData}
-          detailButton={<button className="learnBtn">Learn More</button>}
+          items={[
+            {
+              id: 4,
+              title: "Currency Brokerage",
+              image: "/assets/Financials.png",
+              text: " We are an established choice Bureau De Change for corporate organizations, small and medium size enterprises, individuals and High Net-Worth Individuals who place strong value on the services they get.",
+            },
+            {
+              id: 5,
+              title: "Spot & Forward Transactions",
+              image: "/assets/investment.png",
+              text: " We are an established choice Bureau De Change for corporate organizations, small and medium size enterprises, individuals and High Net-Worth Individuals who place strong value on the services they get.",
+            },
+            {
+              id: 6,
+              title: "Currency Consultancy",
+              image: "assets/bureau-de-change.png",
+              text: " We are an established choice Bureau De Change for corporate organizations, small and medium size enterprises, individuals and High Net-Worth Individuals who place strong value on the services they get.",
+            }]
+          }
         />
       </div>
     </div>
