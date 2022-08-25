@@ -12,9 +12,11 @@ const Services = () => {
           <h2>OUR SERVICES</h2>
         </div>
         <h4>OUR SERVICES INCLUDE</h4>
-        <Card items={cardData} detailButton={<button className="learnBtn">Learn More</button>} />
+        <Card
+          items={cardData}
+          detailButton={<button className="learnBtn">Learn More</button>}
+        />
       </div>
-      <div className="Footer"></div>
     </section>
   );
 };

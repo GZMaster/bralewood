@@ -34,7 +34,6 @@ const Home = () => {
           detailButton={<button className="learnBtn">Learn More</button>}
         />
       </div>
-      <div className="Footer"></div>
     </div>
   );
 };
