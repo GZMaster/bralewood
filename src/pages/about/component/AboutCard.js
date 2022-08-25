@@ -7,7 +7,7 @@ import download2 from "../../../assets/download2.jpg";
 import download from "../../../assets/download.jpg";
 import download1 from "../../../assets/download 1.jpg";
 import download3 from "../../../assets/download 3.jpg";
-import background from "../../../assets/background.jpg";
+// import background from "../../../assets/background.jpg";
 
 import "./aboutCard.css";
 
