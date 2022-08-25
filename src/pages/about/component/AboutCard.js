@@ -3,11 +3,11 @@ import icon1 from "../../../assets/investment.png";
 import background1 from "../../../assets/investment-1.jpg";
 import burear from "../../../assets/bureau.png";
 import mark from "../../../assets/questionmark.png";
-// import download2 from "../../../assets/download2.jpg";
-// import download from "../../../assets/download.jpg";
-// import download1 from "../../../assets/download 1.jpg";
-// import download3 from "../../../assets/download 3.jpg";
-import background from "../../../assets/background.jpg";
+import download2 from "../../../assets/download2.jpg";
+import download from "../../../assets/download.jpg";
+import download1 from "../../../assets/download 1.jpg";
+import download3 from "../../../assets/download 3.jpg";
+// import background from "../../../assets/background.jpg";
 
 import "./aboutCard.css";
 
@@ -78,7 +78,7 @@ function AboutCard() {
           </div>
         </div>
 
-        {/* <div className="section__3">
+        <div className="section__3">
           <div className="text__content">
             <img className="icon__image" src={download2} alt="investment" />
             <h1 className="header">Our Profile</h1>
@@ -102,7 +102,7 @@ function AboutCard() {
             <h1 className="header">Our Profile</h1>
             <p></p>
           </div>
-        </div> */}
+        </div>
       </div>
     </>
   );
