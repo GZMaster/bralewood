@@ -1,7 +1,8 @@
 import React from "react";
+import PropTypes from "prop-types";
 import "./Card.css";
 
-const Card = ({ items }) => {
+const Card = ({ items, detailButton = {} }) => {
   return (
     <div className="Card_Wrapper">
       {items.map((cardData) => {
@@ -13,6 +14,7 @@ const Card = ({ items }) => {
             </div>
             <h6>{title}</h6>
             <p>{text}</p>
+            <div>{detailButton}</div>
           </article>
         );
       })}
@@ -20,4 +22,8 @@ const Card = ({ items }) => {
   );
 };
 
+Card.propTypes = {
+  items: PropTypes.object,
+  detailButton: PropTypes.any,
+};
 export default Card;

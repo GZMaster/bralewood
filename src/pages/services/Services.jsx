@@ -1,10 +1,11 @@
 import React, { useState } from "react";
-import "./Services.css";
+import LearnMoreBtn from "../../components/buttons/learnmore_btn/LearnMoreBtn";
 import Card from "../../components/Card/Card";
 import Data from "../../Data/CardData";
+import "./Services.css";
 
 const Services = () => {
-  const [cardData, setCardData] = useState(Data);
+  const [cardData] = useState(Data);
   return (
     <section className="S_Container">
       <div className="S_Wrapper">
@@ -12,7 +13,7 @@ const Services = () => {
           <h2>OUR SERVICES</h2>
         </div>
         <h4>OUR SERVICES INCLUDE</h4>
-        <Card items={cardData} />
+        <Card items={cardData} detailButton={LearnMoreBtn} />
       </div>
       <div className="Footer"></div>
     </section>
