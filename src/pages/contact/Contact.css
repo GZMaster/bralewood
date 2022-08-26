@@ -1,0 +1,90 @@
+.C_Container {
+  background-color: #dd3333;
+  padding: 25px 0;
+}
+.C_Wrapper {
+  width: 95%;
+  margin: auto;
+  background-color: white;
+  padding-bottom: 80px;
+}
+.Contact_Wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+.C_title {
+  font-size: 2rem;
+  padding: 1.2rem;
+  color: #fd802f;
+  margin-top: 0;
+  text-align: center;
+}
+.C_Form {
+  padding: 1rem 1.5rem;
+  flex: 1;
+}
+.C_Info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.C_btn {
+  text-transform: uppercase;
+  background: #ff7c25d2;
+  color: white;
+  padding: 0.375rem 0.75rem;
+  letter-spacing: 2px;
+  display: inline-block;
+  font-weight: 700;
+
+  font-size: 0.875rem;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+.C_btn:hover {
+  background-color: #fd802f;
+}
+.form_control {
+  display: block;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: none;
+  margin-bottom: 1.25rem;
+  background: #f1f5f8;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+.C_item_title {
+  color: #fd802f;
+  display: flex;
+  gap: 5px;
+}
+.C_item-text {
+  width: 50%;
+}
+@media screen and (max-width: 768px) {
+  .Contact_Wrapper {
+    flex-direction: column;
+  }
+  .C_Info {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 0 0.5rem;
+    margin-top: 2rem;
+  }
+  .C_item_title {
+    justify-content: center;
+  }
+  .C_item-text {
+    align-self: center;
+    width: 100%;
+  }
+}

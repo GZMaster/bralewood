@@ -7,11 +7,10 @@ import image5 from "../../assets/bralewoodslider(4).jpg";
 
 export const slides = [
   {
-    title: "Investments Limited",
-    subtitle: "BraleWood",
-    description:
-      "financial services firm with specialization in Bureau De Change",
-    image: image1,
+    title: "Foreign Exchange",
+    subtitle: "Simplified Solutions",
+    description: "are your Foreign Exchange issues complicated ?",
+    image: image3,
   },
   {
     title: "Worried About",
@@ -20,10 +19,11 @@ export const slides = [
     image: image2,
   },
   {
-    title: "Foreign Exchange",
-    subtitle: "Simplified Solutions",
-    description: "are your Foreign Exchange issues complicated ?",
-    image: image3,
+    title: "Investments Limited",
+    subtitle: "BraleWood",
+    description:
+      "financial services firm with specialization in Bureau De Change",
+    image: image1,
   },
   {
     title: "",
