@@ -1,6 +1,6 @@
 .S_Container {
   background-color: #dd3333;
-  padding-top: 25px;
+  padding: 25px 0;
 }
 .S_Wrapper {
   width: 95%;
@@ -39,7 +39,7 @@
 }
 .Card_Wrapper {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-around;
   gap: 5px;
 }

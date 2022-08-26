@@ -2,6 +2,7 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import NavBar from "./components/navbar/NavBar";
 import "./App.css";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       </div>
 
       <Outlet className="body" />
+      <Footer />
     </div>
   );
 }
