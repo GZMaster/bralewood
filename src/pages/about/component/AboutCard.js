@@ -3,11 +3,7 @@ import icon1 from "../../../assets/investment.png";
 import background1 from "../../../assets/investment-1.jpg";
 import burear from "../../../assets/bureau.png";
 import mark from "../../../assets/questionmark.png";
-import download2 from "../../../assets/download2.jpg";
-import download from "../../../assets/download.jpg";
-import download1 from "../../../assets/download 1.jpg";
-import download3 from "../../../assets/download 3.jpg";
-// import background from "../../../assets/background.jpg";
+import logo from "../../../assets/Logo.jpg";
 
 import "./aboutCard.css";
 
@@ -80,7 +76,10 @@ function AboutCard() {
 
         <div className="section__3">
           <div className="">
-            <img className="" src={download2} alt="investment" />
+            <img className="last__logo__image" src={logo} alt="investment" />
+          </div>
+
+          <div className="">
             <h1 className="">Our Values</h1>
             <div>
               <p>Reliability</p>
@@ -92,7 +91,11 @@ function AboutCard() {
           </div>
 
           <div className="">
-            <img className="" src={download} alt="investment" />
+            <h1 className="">Our Subsidiaries</h1>
+            <div>
+              <p>LEXXY BUREAU DE CHANGE LTD</p>
+            </div>
+
             <h1 className="">Our Promise</h1>
             <div>
               <p>
@@ -103,20 +106,11 @@ function AboutCard() {
           </div>
 
           <div className="">
-            <img className="" src={download1} alt="investment" />
-            <h1 className="">Our Subsidiaries</h1>
-            <div>
-              <p>LEXXY BUREAU DE CHANGE LTD</p>
-            </div>
-          </div>
-
-          <div className="">
-            <img className="" src={download3} alt="investment" />
             <h1 className="">OUR SERVICES</h1>
             <h3>LEXXY FX BUREAU DE CHANGE LTD</h3>
             <p>
-              To provide world-class financial services, through sustainable
-              business practices.
+              To provide world-class financial services, <br /> through
+              sustainable business practices.
             </p>
             <div>
               <p>Foreign Bills Settlements</p>
