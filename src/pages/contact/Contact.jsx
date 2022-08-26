@@ -55,7 +55,7 @@ const Contact = () => {
                 <FaPhoneAlt />
                 <span> Telephone</span>
               </h3>
-              <h3 className="C_item-text">07052536219</h3>
+              <h3 className="C_item-text">01-4545505</h3>
             </div>
           </div>
         </section>
