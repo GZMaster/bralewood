@@ -7,7 +7,7 @@ import download2 from "../../../assets/download2.jpg";
 import download from "../../../assets/download.jpg";
 import download1 from "../../../assets/download 1.jpg";
 import download3 from "../../../assets/download 3.jpg";
-import background from "../../../assets/background.jpg";
+// import background from "../../../assets/background.jpg";
 
 import "./aboutCard.css";
 
@@ -79,28 +79,51 @@ function AboutCard() {
         </div>
 
         <div className="section__3">
-          <div className="text__content">
-            <img className="icon__image" src={download2} alt="investment" />
-            <h1 className="header">Our Profile</h1>
-            <p></p>
+          <div className="">
+            <img className="" src={download2} alt="investment" />
+            <h1 className="">Our Values</h1>
+            <div>
+              <p>Reliability</p>
+              <p>Integrity</p>
+              <p>Passion</p>
+              <p>Professionalism</p>
+              <p>Speed (Timeliness)</p>
+            </div>
           </div>
 
-          <div className="text__content">
-            <img className="icon__image" src={download} alt="investment" />
-            <h1 className="header">Our Profile</h1>
-            <p></p>
+          <div className="">
+            <img className="" src={download} alt="investment" />
+            <h1 className="">Our Promise</h1>
+            <div>
+              <p>
+                To provide world-class financial services, <br /> through
+                sustainable business practices.
+              </p>
+            </div>
           </div>
 
-          <div className="text__content">
-            <img className="icon__image" src={download1} alt="investment" />
-            <h1 className="header">Our Profile</h1>
-            <p></p>
+          <div className="">
+            <img className="" src={download1} alt="investment" />
+            <h1 className="">Our Subsidiaries</h1>
+            <div>
+              <p>LEXXY BUREAU DE CHANGE LTD</p>
+            </div>
           </div>
 
-          <div className="text__content">
-            <img className="icon__image" src={download3} alt="investment" />
-            <h1 className="header">Our Profile</h1>
-            <p></p>
+          <div className="">
+            <img className="" src={download3} alt="investment" />
+            <h1 className="">OUR SERVICES</h1>
+            <h3>LEXXY FX BUREAU DE CHANGE LTD</h3>
+            <p>
+              To provide world-class financial services, through sustainable
+              business practices.
+            </p>
+            <div>
+              <p>Foreign Bills Settlements</p>
+              <p>Import Payments</p>
+              <p>School Fees Remittance</p>
+              <p>Cash exchange for foreign currencies.</p>
+            </div>
           </div>
         </div>
       </div>
