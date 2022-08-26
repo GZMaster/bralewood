@@ -73,15 +73,14 @@ const About = () => {
           </div>
         </div>
 
-        <div className="section__3">
-          <div className="image__block">
-            <img className="last__logo__image" src={logo} alt="investment" />
-          </div>
-
-          <div>
-            <div>
-              <h1>Our values</h1>
-              <ul>
+        <div className="image__block">
+          <img className="last__logo__image" src={logo} alt="investment" />
+        </div>
+        <div>
+          <div className="section__3">
+            <div className="holders">
+              <h1 className="header_wrap">Our values</h1>
+              <ul className="unodered">
                 <li>Reliability</li>
                 <li>Reliability</li>
                 <li>Reliability</li>
@@ -90,20 +89,20 @@ const About = () => {
                 <li>Reliability</li>
               </ul>
             </div>
-            <div>
-              <h1>Our subsidiaries</h1>
+            <div className="holders">
+              <h1 className="header_wrap">Our subsidiaries</h1>
               <p>Lexxy bureau de change limited</p>
             </div>
-            <div>
-              <h1>Our promise</h1>
+            <div className="holders">
+              <h1 className="header_wrap">Our promise</h1>
               <p>
                 To promise world-class financial services, through sustainable
                 business practices
               </p>
             </div>
-            <div>
-              <h1>Our services</h1>
-              <ul>
+            <div className="holders">
+              <h1 className="header_wrap">Our services</h1>
+              <ul className="unodered">
                 <li>
                   To provide world-class financial services, though sustainable
                   business practices.

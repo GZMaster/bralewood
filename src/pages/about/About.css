@@ -90,15 +90,29 @@
     padding: 2%;
 }
 
+.image__block {
+    display: flex;justify-content: center;
+}
+
 .about_ourservices {
     width: 20%;
     padding: 2%;
 }
 
 .section__3 {
-
+    display: flex;
+    width: 100%;
+    padding: 30px;
     background-color: rgb(243, 212, 155, 0.5);
 
+}
+
+.holders {
+    width: 25%;
+}
+.unodered {
+    padding: 0;
+    list-style: none;
 }
 
 @media screen and (max-width: 767px) {
@@ -112,7 +126,16 @@
         padding: 0 20px;
     }
 
-     
+    .holders {
+        width: 100%;
+    }
+
+    .section__3 {
+        display: block;
+    }
+    .header_wrap {
+        margin: 0;
+    }
 
        
 }
