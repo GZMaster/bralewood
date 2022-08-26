@@ -18,7 +18,7 @@
   width: 100%;
   visibility: hidden;
   opacity: 0;
-  padding: 3em;
+  padding: 1em;
   display: flex;
 
   &.open {
@@ -29,8 +29,9 @@
   }
 }
 
-ul {
-  margin: 15% 0% auto auto;
+.panel ul {
+  width: 100%;
+  padding: 3rem 1rem;
 
   li {
     list-style: none;
