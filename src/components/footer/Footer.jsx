@@ -2,17 +2,15 @@ import React from "react";
 import "./Footer.css";
 import {
   FaFacebookF,
-  FaTwitter,
-  FaGooglePlusG,
+  FaLinkedin,
   FaInstagram,
 } from "react-icons/fa";
-import { MdRssFeed } from "react-icons/md";
 const Footer = () => {
   return (
     <footer className="Footer">
       <div className="F_text">
         <p>
-          Designed by <span className="F_Team">GZM Team</span>
+          Designed by <span className="F_Team">Retro Developers</span>
         </p>
       </div>
       <div className="F_Socials">
@@ -20,16 +18,10 @@ const Footer = () => {
           <FaFacebookF />
         </div>
         <div className="F_item">
-          <FaTwitter />
-        </div>
-        <div className="F_item">
-          <FaGooglePlusG />
+          <FaLinkedin />
         </div>
         <div className="F_item">
           <FaInstagram />
-        </div>
-        <div className="F_item">
-          <MdRssFeed />
         </div>
       </div>
     </footer>
