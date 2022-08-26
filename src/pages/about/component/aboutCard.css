@@ -49,6 +49,11 @@
   transition: all 1s linear;
 }
 
+.last__logo__image {
+    width: 450px;
+    height: 400px;
+}
+
 .section__2 {
     display: flex;
     justify-content: space-between;
@@ -58,6 +63,7 @@
 .section__3 {
     display: flex;
     justify-content: space-between;
-    background-color: orange;
+    background-color: rgb(243, 212, 155, 0.5);
+    padding: 40px;
     margin-top: 50px;
 }
