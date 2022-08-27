@@ -12,6 +12,97 @@
     width: 95%;
     margin: auto;
     background-image: linear-gradient(90deg, #fdfbfb 0%, #ebedee 100%);
-    padding-bottom: 80px;
     justify-content: center;
+
+    .management_content_img {
+        height: 200px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-self: center;
+        background-position: center;
+        background-size: cover;
+        background-image: url("../../assets/bralewoodManagementImg.jpg");
+    }
+
+    .management_head_text {
+        font-size: 38px;
+        font-weight: 600;
+        font-style: italic;
+        line-height: 1.5;
+        align-self: center;
+        justify-self: center;
+        color: #2ea3f2;
+    }
+
+    .management_card_holder {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-items: left;
+        justify-content: left;
+        box-shadow: 0px 2px 18px 0px rgba(253, 128, 47, 0.66);
+        padding: 5%;
+        font-size: 16px;
+        border-radius: 10px 10px 10px 10px;
+        border-color: rgba(0, 0, 152, 0);
+        margin: 5%;
+
+        .management_name {
+            font-weight: 500;
+            font-style: italic;
+            text-transform: uppercase;
+            color: #000098;
+            font-size: 18px;
+            margin: 0;
+        }
+
+        .management_title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #333333;
+            margin-top: 20px;
+        }
+
+        .management_description {
+            font-size: 1rem;
+            font-weight: bold;
+            color: #666666;
+            margin-top: 20px;
+        }
+
+        .management_unorded {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            margin-top: 20px;
+
+            .management_list {
+                font-size: 1rem;
+                font-weight: bold;
+                color: #666666;
+                margin-top: 20px;
+            }
+        }
+    }
+
+    .management_card_holder:hover {
+        transform: scale(1.05);
+        transition: all 0.5s linear;
+    }
+
+    .management_footer_img {
+        height: 200px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-self: center;
+        background-position: center;
+        background-size: cover;
+        background-image: url("../../assets/bralewoodManagementImg_1.jpg");
+    }
 }

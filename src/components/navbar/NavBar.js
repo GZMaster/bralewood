@@ -32,6 +32,13 @@ const NavBar = () => {
             About
           </NavLink>
           <NavLink
+            className={selectPage === "management" ? "links selected" : "links"}
+            to="/management"
+            onClick={() => setSelectPage("management")}
+          >
+            Our Management
+          </NavLink>
+          <NavLink
             className={selectPage === "Services" ? "links selected" : "links"}
             to="/services"
             onClick={() => setSelectPage("Services")}

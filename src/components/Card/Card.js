@@ -22,7 +22,7 @@ const Card = ({ items, cardClassWrapper, cardClass }) => {
 };
 
 Card.propTypes = {
-  items: PropTypes.object,
+  items: PropTypes.any,
   cardClassWrapper: PropTypes.string,
   cardClass: PropTypes.string,
 };
