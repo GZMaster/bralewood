@@ -6,7 +6,7 @@
 
 .panel {
   max-width: 500px;
-  min-width: 240px;
+  // min-width: 240px;
   background-color: #fff;
   background-size: 117px 188px;
   transition: all 0.4s cubic-bezier(0.42, 0, 0.34, 1.01);
@@ -15,7 +15,6 @@
   right: -100%;
   top: 0;
   height: 100%;
-  width: 100%;
   visibility: hidden;
   opacity: 0;
   padding: 1em;
@@ -23,7 +22,7 @@
 
   &.open {
     visibility: visible;
-    width: 80%;
+    width: 40%;
     right: 0;
     opacity: 1;
   }
@@ -35,7 +34,7 @@
 
   li {
     list-style: none;
-    font-size: 2em;
+    font-size: 1em;
     text-align: right;
 
     & + li {

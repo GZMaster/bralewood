@@ -15,7 +15,7 @@ const About = () => {
             <div className="text__content">
               <img className="icon__image" src={icon1} alt="investment" />
               <h1 className="header">About Brelewood</h1>
-              <p>
+              <p className="paragragrph1">
                 Bralewood Investments Limited is a financial services firm with
                 specialization in Bureau De Change, and Financial Consultancy,
                 and Investments.
@@ -35,7 +35,7 @@ const About = () => {
               at nothing to ensure that all our service touchpoints leave an
               impression during the each interaction with every customer.
             </p>
-            <p>
+            <p className="paragragrph1">
               We are committed to our Clients’ Growth andImprovement, and
               introduce world-class proven Innovations, Ideas, Products and
               Services to suit their needs. With our team of experts in various
@@ -63,7 +63,7 @@ const About = () => {
               and businesses or idea developers and inventors and to generally
               serve as business incubators.
             </p>{" "}
-            <p>
+            <p className="paragragrph1">
               Bralewood’s immediate to short-term business model and core
               primary area of business is Foreign Exchange trading, which will
               gradually evolve into other lines of businesses including
@@ -80,29 +80,28 @@ const About = () => {
           <div className="section__3">
             <div className="holders">
               <h1 className="header_wrap">Our values</h1>
-              <ul className="unodered">
+              <ul className="unodered paragraphContext">
                 <li>Reliability</li>
-                <li>Reliability</li>
-                <li>Reliability</li>
-                <li>Reliability</li>
-                <li>Reliability</li>
-                <li>Reliability</li>
+                <li>Integrity</li>
+                <li>Passion</li>
+                <li>Professionalism</li>
+                <li>Speed (Timeliness)</li>
               </ul>
             </div>
             <div className="holders">
               <h1 className="header_wrap">Our subsidiaries</h1>
-              <p>Lexxy bureau de change limited</p>
+              <p className="paragraphContext">Lexxy bureau de change limited</p>
             </div>
             <div className="holders">
               <h1 className="header_wrap">Our promise</h1>
-              <p>
+              <p className="paragraphContext">
                 To promise world-class financial services, through sustainable
                 business practices
               </p>
             </div>
             <div className="holders">
               <h1 className="header_wrap">Our services</h1>
-              <ul className="unodered">
+              <ul className="unodered paragraphContext">
                 <li>
                   To provide world-class financial services, though sustainable
                   business practices.
