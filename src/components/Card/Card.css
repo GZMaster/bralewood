@@ -20,6 +20,10 @@
   border-radius: 10px 10px 10px 10px;
   border-color: rgba(0, 0, 152, 0);
 }
+.Card:hover {
+  transform: scale(1.05);
+  transition: all 0.5s linear;
+}
 .Card img {
   margin-bottom: 20px;
 }

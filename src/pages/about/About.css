@@ -28,18 +28,10 @@
 
 .header {
   margin-bottom: 5px;
-  font-weight: 500;
-  font-style: italic;
-  color: #000098;
 }
 
 .paragragrph1 {
   padding-bottom: 10px;
-  color: #666666;
-}
-
-.paragraphContext {
-  color: #666666;
 }
 
 .text__content {
@@ -51,8 +43,8 @@
 }
 
 .text__content:hover {
-  transform: scale(0.9);
-  transition: all 1s linear;
+  transform: scale(1.05);
+  transition: all 0.5s linear;
 }
 
 .coin__img {
@@ -64,8 +56,8 @@
 }
 
 .coin__img:hover {
-  transform: scale(0.9);
-  transition: all 1s linear;
+  transform: scale(1.05);
+  transition: all 0.5s linear;
 }
 
 .section__2 {
@@ -109,12 +101,6 @@
   width: 100%;
   padding: 30px;
   background-color: rgb(243, 212, 155, 0.5);
-}
-
-.header_wrap {
-  font-weight: 500;
-  font-style: italic;
-  color: #000098;
 }
 
 .holders {
