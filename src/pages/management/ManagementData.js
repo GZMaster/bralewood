@@ -15,15 +15,15 @@ export const ManagementData = [
         Capitalfield Investment Group Limited as a senior management executive
         in trade finance. His job covered management of the bureau de change
         business, trade finance, risk asset creation and relationship
-        management. <br />
-        <br />
+        management.
+        
         He is an MBA holder of the Netherlands Business School and a graduate
         of Industrial Mathematics from the University of Benin. He has
         attended several local and international trainings / seminars in
         international trade, conflict management and alternative resolution
         mechanisms, as well as courses in anti-money laundering, card payments
-        and central clearing. <br />
-        <br />
+        and central clearing.
+        
         He would be responsible for charting the strategic direction of
         Bralewood as well as systems and structures to ensure the successful
         implementation of organizational strategy.`,

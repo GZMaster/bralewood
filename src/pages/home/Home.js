@@ -17,7 +17,6 @@ const Home = () => {
                 text: "Bralewood Investments Limited is a financial services firm with specialization in Bureau De Change, and Financial Consultancy, and Investments. In Bralewood, we are extremely passionate about SERVICE delivery, as we seek to always enhance our Customer Experience. We will stop at nothing to ensure that all our service touchpoints leave an impression during the each interaction with every customer.",
               },
             ]}
-            detailButton={<button className="learnBtn">Learn More</button>}
             cardClassWrapper="home__CardContainer"
             cardClass="home__Card"
           />
@@ -45,8 +44,8 @@ const Home = () => {
               title: "Currency Consultancy",
               image: "assets/bureau-de-change.png",
               text: " We are an established choice Bureau De Change for corporate organizations, small and medium size enterprises, individuals and High Net-Worth Individuals who place strong value on the services they get.",
-            }]
-          }
+            },
+          ]}
         />
       </div>
     </div>

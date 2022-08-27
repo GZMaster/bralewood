@@ -4,6 +4,7 @@ import "./Contact.css";
 import "../services/Services.css";
 import { FaPhoneAlt, FaLocationArrow } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
+import SuccessfulNotification from "../../components/notification/SuccessfulNotification"
 
 const Contact = () => {
   const [toSend, setToSend] = useState({
@@ -28,6 +29,8 @@ const Contact = () => {
       .catch((err) => {
         console.log('FAILED...', err);
       });
+      
+    SuccessfulNotification("Mail Sent Successfully");
   };
 
   const handleChange = (e) => {

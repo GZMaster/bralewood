@@ -1,4 +1,5 @@
 import React from "react";
+import UseMediaQuery from "../../components/mediaquery/UseMediaQuery";
 import icon1 from "../../assets/investment.png";
 import background1 from "../../assets/investment-1.jpg";
 import burear from "../../assets/bureau.png";
@@ -7,6 +8,8 @@ import logo from "../../assets/Logo.jpg";
 import "./About.css";
 
 const About = () => {
+  let isPageWide = UseMediaQuery("(min-width: 760px)");
+
   return (
     <div className="about_container">
       <div className="about_content__wrapper">
@@ -14,28 +17,36 @@ const About = () => {
           <div className="about_card__container">
             <div className="text__content">
               <img className="icon__image" src={icon1} alt="investment" />
-              <h1 className="header">About Brelewood</h1>
-              <p className="paragragrph1">
+              <h1 className="header">About Bralewood</h1>
+              <p className="paragraph">
                 Bralewood Investments Limited is a financial services firm with
                 specialization in Bureau De Change, and Financial Consultancy,
                 and Investments.
               </p>
             </div>
-            <img className="coin__img" src={background1} alt="investment1" />
+            <img
+              className={isPageWide ? "coin__img" : "coin__img__mobile"}
+              src={background1}
+              alt="investment1"
+            />
           </div>
+        </div>
+
+        <div className="about_img_container">
+          <h1 className="about_img_header">INVEST WITH US</h1>
         </div>
 
         <div className="section__2">
           <div className="text__content">
             <img className="icon__image" src={burear} alt="investment" />
-            <h1 className="header">Welcome to Brelewood</h1>
-            <p className="paragragrph1">
+            <h1 className="header">Welcome to Bralewood</h1>
+            <p className="paragraph">
               In Bralewood, we are extremely passionate about SERVICE delivery,
               as we seek to always enhance our Customer Experience. We will stop
               at nothing to ensure that all our service touchpoints leave an
               impression during the each interaction with every customer.
             </p>
-            <p className="paragragrph1">
+            <p className="paragraph">
               We are committed to our Clients’ Growth andImprovement, and
               introduce world-class proven Innovations, Ideas, Products and
               Services to suit their needs. With our team of experts in various
@@ -48,7 +59,7 @@ const About = () => {
           <div className="text__content">
             <img className="icon__image" src={mark} alt="investment" />
             <h1 className="header">Our Profile</h1>
-            <p className="paragragrph1">
+            <p className="paragraph">
               Bralewood Investments Ltd was incorporated in 2019 and was
               established to carry on the business of an investment company and
               for that purpose to acquire and hold in the name of the company,
@@ -57,13 +68,13 @@ const About = () => {
               issued or guaranteed by any government, sovereign rulers,
               commissioners, public body or authority in Nigeria.
             </p>{" "}
-            <p className="paragragrph1">
+            <p className="paragraph">
               To carry on business as investment consultants to broker
               investment and business transactions between prospective investors
               and businesses or idea developers and inventors and to generally
               serve as business incubators.
             </p>{" "}
-            <p className="paragragrph1">
+            <p className="paragraph">
               Bralewood’s immediate to short-term business model and core
               primary area of business is Foreign Exchange trading, which will
               gradually evolve into other lines of businesses including
@@ -103,7 +114,7 @@ const About = () => {
               <h1 className="header_wrap">Our services</h1>
               <ul className="unodered paragraphContext">
                 <li>
-                  To provide world-class financial services, though sustainable
+                  To provide world-class financial services, through sustainable
                   business practices.
                 </li>
                 <li>Foreign bills settlements </li>

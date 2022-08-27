@@ -20,16 +20,29 @@ const BurgerMenu = () => {
       <div className={`panel ${isOpen ? "open" : "close"}`}>
         <ul>
           <li>
-            <NavLink to="/">Home</NavLink>
+            <NavLink to="/" onClick={() => setOpen(false)}>
+              Home
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/about">About</NavLink>
+            <NavLink to="/about" onClick={() => setOpen(false)}>
+              About
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/services">Services</NavLink>
+            <NavLink to="/management" onClick={() => setOpen(false)}>
+              Our Management
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/contacts">Contact</NavLink>
+            <NavLink to="/services" onClick={() => setOpen(false)}>
+              Services
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/contacts" onClick={() => setOpen(false)}>
+              Contact
+            </NavLink>
           </li>
         </ul>
       </div>
