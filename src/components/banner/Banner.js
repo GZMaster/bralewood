@@ -1,4 +1,4 @@
-import React, { useReducer } from "react";
+import React, { useReducer, useEffect } from "react";
 import { slides } from "./slidesData";
 import UseTilt from "./UseTilt";
 import "./Banner.scss";
@@ -61,6 +61,12 @@ function Slide({ slide, offset }) {
 
 const Banner = () => {
   const [state, dispatch] = useReducer(slidesReducer, initialState);
+
+  useEffect(() => {
+    setInterval(() => {
+      dispatch({ type: "PREV" });
+    }, 5000);
+  }, []);
 
   return (
     <div className="slides">
