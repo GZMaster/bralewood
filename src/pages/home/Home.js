@@ -31,19 +31,19 @@ const Home = () => {
               id: 4,
               title: "Currency Brokerage",
               image: "/assets/Financials.png",
-              text: " We are an established choice Bureau De Change for corporate organizations, small and medium size enterprises, individuals and High Net-Worth Individuals who place strong value on the services they get.",
+              text: "",
             },
             {
               id: 5,
               title: "Spot & Forward Transactions",
               image: "/assets/investment.png",
-              text: " We are an established choice Bureau De Change for corporate organizations, small and medium size enterprises, individuals and High Net-Worth Individuals who place strong value on the services they get.",
+              text: "",
             },
             {
               id: 6,
               title: "Currency Consultancy",
               image: "assets/bureau-de-change.png",
-              text: " We are an established choice Bureau De Change for corporate organizations, small and medium size enterprises, individuals and High Net-Worth Individuals who place strong value on the services they get.",
+              text: "",
             },
           ]}
         />
