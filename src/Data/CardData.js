@@ -10,7 +10,7 @@ const CardData = [
     title: "INVESTMENT ADVISORY",
     image: "/assets/investment.png",
     text: "",
-  },
+  },card 
   {
     id: 3,
     title: "BUREAU DE CHANGE",
@@ -21,7 +21,7 @@ const CardData = [
     id: 4,
     title: "Currency Brokerage",
     image: "/assets/Financials.png",
-    text: "",
+    text: "As your financial service provider we help you buy and sell currencies, allowing you save up on the cost of international money transfers.",
   },
   {
     id: 5,
@@ -33,7 +33,7 @@ const CardData = [
     id: 6,
     title: "Currency Consultancy",
     image: "assets/bureau-de-change.png",
-    text: "",
+    text: "Get our expertise analysis of financial markets and strategies for investment globally.",
   },
   {
     id: 7,
