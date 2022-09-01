@@ -10,7 +10,7 @@ const CardData = [
     title: "INVESTMENT ADVISORY",
     image: "/assets/investment.png",
     text: "",
-  },card 
+  },
   {
     id: 3,
     title: "BUREAU DE CHANGE",
