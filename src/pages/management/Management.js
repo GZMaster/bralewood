@@ -21,7 +21,7 @@ const Management = () => {
               {!list
                 ? null
                 : list.map(({ id, text }) => (
-                    <ul className="management_unorded">
+                    <ul className="management_unordered">
                       <li className="management_list">{text}</li>
                     </ul>
                   ))}

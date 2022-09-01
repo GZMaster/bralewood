@@ -27,7 +27,7 @@ export const slides = [
   },
   {
     title: "BUREAU DE CHANGE",
-    subtitle: "BUREAU DE CHANGE",
+    subtitle: "Fx Management",
     description:
       "guaranteed correct and accurate exchange rates with  little or no interest",
     image: image4,
@@ -35,7 +35,8 @@ export const slides = [
   {
     title: "INVESTMENT ",
     subtitle: "helps investors",
-    description: "invest their capital in those economic entities for the  most productive",
+    description:
+      "invest their capital in those economic entities for the  most productive",
     image: image5,
   },
 ];
