@@ -45,7 +45,7 @@ const CardData = [
     id: 8,
     title: "Cash Deliveries",
     image: "/assets/investment.png",
-    text: "",
+    text: "We provide swift delivery by efficient staff within minutes of finalised transactions, also serving a clearing function permitting payment to be made between entities who want to hold or use a different currency, and more in our bid to provide premium service.",
   },
   {
     id: 9,
@@ -57,13 +57,13 @@ const CardData = [
     id: 10,
     title: "Forex Purchase and Sales",
     image: "/assets/Financials.png",
-    text: "",
+    text: "Bralewood Investments Limited offers the simultaneous buying and selling of global currency pairs.",
   },
   {
     id: 11,
     title: "International Transactions",
     image: "/assets/investment.png",
-    text: "",
+    text: "We pride ourselves in Fx management. Our accurate exchange rates guarantee little or no interest, reducing the foreign exchange risk created by currency conversion. Detailed exposure reports by our experts facilitate transactions between associated enterprises.",
   },
 ];
 export default CardData;
