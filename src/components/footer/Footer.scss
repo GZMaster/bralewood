@@ -1,5 +1,5 @@
 .Footer {
-  background-color: #1f1f1f;
+  background-color: #000015;
   width: 100%;
   height: 15%;
   padding: 0.3rem 0.9rem;
@@ -8,12 +8,16 @@
 }
 .F_text {
   font-weight: 300;
-  color: #666;
+  color: #ffffffcc;
+  display: flex;
+  flex-direction: column;
   line-height: 1.5;
+}
+.F_text p {
+  margin: 0.1rem;
 }
 .F_Team {
   font-weight: bold !important;
-  color: rgb(102, 102, 102);
 }
 .F_Socials {
   display: flex;
