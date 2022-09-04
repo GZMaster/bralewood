@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import BurgerMenu from "../hamburger/BurgerMenu";
 import UseMediaQuery from "../mediaquery/UseMediaQuery";
 import logo from "../../assets/Logo.jpg";
-import "./NavBar.css";
+import "./NavBar.scss";
 
 const NavBar = () => {
   const [selectPage, setSelectPage] = useState("Home");
@@ -11,51 +11,22 @@ const NavBar = () => {
 
   return (
     <div className="nav__component">
-      <div className="nav__header">
-        <img className="logo" src={logo} alt="" />
+      <div className="mini_contact_bar">
+        <h3>info@bralewood.com</h3>
+        <h3>01-4545505</h3>
       </div>
 
-      {isPageWide ? (
-        <div className="links__content">
-          <NavLink
-            className={selectPage === "Home" ? "links selected" : "links"}
-            to="/"
-            onClick={() => setSelectPage("Home")}
-          >
-            Home
-          </NavLink>
-          <NavLink
-            className={selectPage === "About" ? "links selected" : "links"}
-            to="/about"
-            onClick={() => setSelectPage("About")}
-          >
-            About
-          </NavLink>
-          <NavLink
-            className={selectPage === "management" ? "links selected" : "links"}
-            to="/management"
-            onClick={() => setSelectPage("management")}
-          >
-            Our Management
-          </NavLink>
-          <NavLink
-            className={selectPage === "Services" ? "links selected" : "links"}
-            to="/services"
-            onClick={() => setSelectPage("Services")}
-          >
-            Services
-          </NavLink>
-          <NavLink
-            className={selectPage === "Contact" ? "links selected" : "links"}
-            to="/contacts"
-            onClick={() => setSelectPage("Contact")}
-          >
-            Contact
-          </NavLink>
+      <div className="nav_bar">
+        <div className="nav__logo">
+          <img className="logo" src={logo} alt="" />
         </div>
-      ) : (
-        <BurgerMenu />
-      )}
+
+        {isPageWide ? (
+          <div className="nav__buttons_holder"></div>
+        ) : (
+          <BurgerMenu />
+        )}
+      </div>
     </div>
   );
 };
