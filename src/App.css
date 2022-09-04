@@ -7,9 +7,8 @@
 }
 
 .body {
-  
 }
+
 .NavBar {
-  height: 1270px;
-  display: block;
+  display: flex;
 }
