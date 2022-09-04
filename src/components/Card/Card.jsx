@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "./Card.css";
+import "./Card.scss";
 
 const Card = ({ items, cardClassWrapper, cardClass }) => {
   return (
