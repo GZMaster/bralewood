@@ -1,8 +1,10 @@
 .C_Container {
   display: flex;
   width: 100%;
-  background-image: linear-gradient(0deg, #333333 0%, #dd1818 100%);
+  background-image: url("../../assets/bralewood assets/contactPageBg.png");
   padding: 25px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .C_Wrapper {
   width: 60%;
