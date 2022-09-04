@@ -1,0 +1,50 @@
+.A_Container {
+  height: 100vh;
+  background-color: #fdfdfe;
+}
+.A_Wrapper {
+  padding: 4rem;
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+.A_Text_Wrap {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.A_Image_Wrap {
+  flex: 1;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.A_Text_Header {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 45px;
+}
+.A_Btn {
+  border: 2px solid #f96507;
+  background-color: transparent;
+  padding: 0.5rem 2rem;
+  color: #f96507;
+  font-weight: 500;
+  font-size: 16px;
+  width: fit-content;
+}
+.A_Text_Title {
+  color: #000015;
+  line-height: 23.48px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 15%;
+}
+.A_Orange {
+  color: #f96507;
+}
+.A_Blue {
+  color: #000098;
+}
