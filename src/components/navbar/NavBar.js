@@ -52,6 +52,7 @@ const NavBar = () => {
           >
             Contact
           </NavLink>
+          <NavLink to="/Interlude">Interlude</NavLink>
         </div>
       ) : (
         <BurgerMenu />
