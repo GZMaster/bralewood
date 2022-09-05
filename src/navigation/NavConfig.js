@@ -6,6 +6,7 @@ import About from "../pages/about/About";
 import Contact from "../pages/contact/Contact";
 import Services from "../pages/services/Services";
 import Management from "../pages/management/Management";
+import { Interlude } from "../pages/Interlude/Interlude";
 
 const NavConfig = () => {
   return (
@@ -16,6 +17,7 @@ const NavConfig = () => {
         <Route path="/contacts" element={<Contact />} />
         <Route path="/services" element={<Services />} />
         <Route path="/management" element={<Management />} />
+        <Route path="/Interlude" element={<Interlude />} />
         <Route path="/*" element={<Home />} />
       </Route>
     </Routes>

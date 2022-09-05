@@ -15,7 +15,7 @@ const NavBar = () => {
         <h3>info@bralewood.com</h3>
         <h3>01-4545505</h3>
       </div>
-
+      
       <div className="nav_bar">
         <div className="nav__logo">
           <img className="logo" src={logo} alt="" />
