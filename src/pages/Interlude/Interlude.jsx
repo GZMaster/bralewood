@@ -2,7 +2,8 @@ import React from "react";
 import "./Interlude.scss";
 import Pic from "../../assets/bralewood assets/financialDecisionsImage.png";
 import { FiCheckCircle } from "react-icons/fi";
-export const Interlude = () => {
+
+const Interlude = () => {
   return (
     <div className="I_Container">
       <div className="I_Wrapper">
@@ -53,3 +54,5 @@ export const Interlude = () => {
     </div>
   );
 };
+
+export default Interlude;
