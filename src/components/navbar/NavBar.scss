@@ -87,8 +87,9 @@
       height: 16px;
       border-style: none;
       background: none;
+      cursor: pointer;
 
-      > h3 {
+      > a {
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 500;
@@ -96,8 +97,14 @@
         line-height: 1rem;
         color: rgba(255, 255, 255, 0.8);
       }
-
       
+      > a:hover {
+        color: orangered;
+      }
+    }
+
+    .active {
+      text-decoration: underline;
     }
   }
 }
