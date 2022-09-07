@@ -9,7 +9,7 @@ const NavConfig = () => {
       <Route path="/" element={<App />}>
         {/* <Route index element={<MoreAbout />} /> */}
         <Route path="/moreabout" element={<MoreAbout />} />
-        <Route path="/*" element={<App />} />
+        {/* <Route path="/*" element={<App />} /> */}
       </Route>
     </Routes>
   );

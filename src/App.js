@@ -10,20 +10,27 @@ import Contact from "./pages/contact/Contact";
 import "./App.css";
 
 function App() {
-  const [pathName, setPathName] = useState(useLocation().pathname);
+  const { pathName } = useLocation;
+  const [changePage, setChangePage] = useState(false);
 
-  useEffect(() => {
-    setPathName(useLocation.pathname);
-    console.log("pathName", pathName);
-  }, [pathName]);
+  console.log(useLocation);
+
+  // useEffect(() => {
+  //   if (pathName === "/" && undefined) {
+  //     setChangePage(false);
+  //   } else {
+  //     setChangePage(true);
+  //   }
+
+  //   console.log(pathName);
+  //   console.log(changePage);
+  // }, [pathName]);
 
   return (
     <div className="App">
       <NavBar />
 
-      {pathName !== "/" ? (
-        <Outlet />
-      ) : (
+      {changePage === false ? (
         <>
           <Home />
           <About />
@@ -31,6 +38,8 @@ function App() {
           <Services />
           <Contact />
         </>
+      ) : (
+        <Outlet />
       )}
       <Footer />
     </div>
