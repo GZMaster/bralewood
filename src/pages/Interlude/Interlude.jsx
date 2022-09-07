@@ -5,7 +5,7 @@ import { FiCheckCircle } from "react-icons/fi";
 
 const Interlude = () => {
   return (
-    <div className="I_Container">
+    <section to="interlude" className="I_Container">
       <div className="I_Wrapper">
         <div className="I_Left">
           <img src={Pic} alt="" />
@@ -51,7 +51,7 @@ const Interlude = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -3,11 +3,6 @@ import { Link } from "react-scroll";
 // import { NavLink } from "react-router-dom";
 import BurgerMenu from "../hamburger/BurgerMenu";
 import UseMediaQuery from "../mediaquery/UseMediaQuery";
-import Home from "../../pages/home/Home";
-import About from "../../pages/about/About";
-import Interlude from "../../pages/Interlude/Interlude";
-import Services from "../../pages/services/Services";
-import Contact from "../../pages/contact/Contact";
 import logo from "../../assets/Logo.jpg";
 import mailIcon from "../../assets/bralewood assets/mailmini.png";
 import phoneIcon from "../../assets/bralewood assets/phone-callmini.png";
@@ -70,21 +65,11 @@ const NavBar = () => {
         </div>
       </header>
 
-      <section id="home">
-        <Home />
-      </section>
-      <section id="about">
-        <About />
-      </section>
-      <section id="about">
-        <Interlude />
-      </section>
-      <section id="services">
-        <Services />
-      </section>
-      <section id="contact">
-        <Contact />
-      </section>
+      {/* {children.map((child, key) => {
+        console.log(child);
+        console.log(key);
+        return <section id={key}>{child}</section>;
+      })} */}
     </>
   );
 };
