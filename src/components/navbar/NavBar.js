@@ -32,12 +32,12 @@ const NavBar = () => {
           {isPageWide ? (
             <ul className="nav__buttons_holder">
               <li className="nav__button">
-                <Link activeClass="active" smooth spy to="home" >
+                <Link activeClass="active" smooth spy to="home" offset={-80}>
                   Home
                 </Link>
               </li>
               <li className="nav__button">
-                <Link activeClass="active" smooth spy to="about">
+                <Link activeClass="active" smooth spy to="about" offset={-80}>
                   About Us
                 </Link>
               </li>
@@ -47,7 +47,7 @@ const NavBar = () => {
                   smooth
                   spy
                   to="services"
-                  
+                  offset={-80}
                 >
                   Services
                 </Link>
@@ -66,7 +66,7 @@ const NavBar = () => {
                   spy
                   to="contact"
                   h3
-                  
+                  offset={-80}
                 >
                   Contact Us
                 </Link>
