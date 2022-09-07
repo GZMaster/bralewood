@@ -1,21 +1,21 @@
 .Card_Wrapper {
   display: flex;
+  padding: 4rem 0rem;
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 5px;
 }
 .Card {
-  width: 28%;
+  flex: 1;
   margin-bottom: 2.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-items: center;
   justify-content: center;
-  box-shadow: 0px 2px 18px 0px rgba(253, 128, 47, 0.66);
   padding: 20px;
   font-size: 16px;
-  color: #666666;
+  color: #000015cc;
   background-color: #fff;
   border-radius: 10px 10px 10px 10px;
   border-color: rgba(0, 0, 152, 0);
@@ -23,23 +23,31 @@
 .Card:hover {
   transform: scale(1.05);
   transition: all 0.5s linear;
+  z-index: 1;
 }
 .Card img {
   margin-bottom: 20px;
 }
 .Card h6 {
   font-weight: 500;
-  font-style: italic;
-  text-transform: uppercase;
-  color: #fd802f;
-  font-size: 18px;
+  text-transform: capitalize;
+  color: #000015;
+  font-size: 20px;
   text-align: center;
   margin: 0;
 }
+.Card p {
+  font-size: 14px;
+  line-height: 20px;
+}
 @media screen and (max-width: 480px) {
   .Card {
-    width: 90%;
-    margin-bottom: 40px;
+    width: 100%;
+    flex: auto;
+    margin-bottom: 20px;
+  }
+  .Card p {
+    text-align: center;
   }
   .Card_Wrapper {
     flex-wrap: wrap;

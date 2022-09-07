@@ -1,0 +1,55 @@
+.S_Container {
+  height: 100vh;
+  background-color: #fdfdfe;
+}
+.S_Wrapper {
+  padding: 4rem 0rem;
+  padding-top: 0;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0px 120px;
+}
+
+.S_Top {
+  color: #000015;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+}
+.S_Top h2 {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 1.5;
+  align-self: center;
+  margin-bottom: 0;
+  justify-self: center;
+}
+.S_Wrapper_Text {
+  text-align: center;
+  color: #000015;
+  font-weight: 300;
+  margin: auto;
+  width: 60%;
+  margin-bottom: 1rem;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 480px) {
+  .S_Wrapper {
+    width: 100%;
+    padding: 2rem;
+  }
+  .S_Top h2 {
+    font-size: 30px;
+  }
+  .S_Wrapper_Text {
+    width: 100%;
+  }
+
+  .S_Container {
+    height: fit-content;
+  }
+}

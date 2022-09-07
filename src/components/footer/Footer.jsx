@@ -1,14 +1,11 @@
 import React from "react";
-import "./Footer.css";
-import {
-  FaFacebookF,
-  FaLinkedin,
-  FaInstagram,
-} from "react-icons/fa";
+import "./Footer.scss";
+import { FaFacebookF, FaLinkedin, FaInstagram } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="Footer">
       <div className="F_text">
+        <p>Copyright © 2022 Bralewood Investments LTD. All rights reserved.</p>
         <p>
           Designed by <span className="F_Team">Retro Developers</span>
         </p>

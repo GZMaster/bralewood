@@ -1,0 +1,110 @@
+.nav__component {
+  width: 100%;
+  z-index: 1000;
+}
+.mini_contact_bar {
+  width: 100%;
+  height: 47px;
+  background: rgba(250, 250, 252, 0.7);
+
+  .mini_contact_div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 120px;
+
+    > img {
+      width: 20px;
+      height: 20px;
+      padding-right: 10px;
+    }
+
+    .nav_vl {
+      border-left: 1px solid rgba(0, 0, 0, 0.3);
+      height: 24px;
+      margin: 0px 20px;
+    }
+
+    > h3 {
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 0.8rem;
+      line-height: 140%;
+      color: #000015;
+    }
+  }
+}
+.sticky {
+  position: sticky;
+  top: 0%;
+}
+.nav_bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background: #000015;
+  border: 1px solid #000015;
+
+  .nav__logo {
+    display: flex;
+    flex-direction: column;
+    width: 85px;
+    height: 69.51%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+    margin-left: 120px;
+    gap: 10px;
+
+    background: #ffffff;
+
+    .logo {
+      width: 80%;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+  }
+
+  .nav__buttons_holder {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin-right: 120px;
+
+    .nav__button {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 16px;
+      border-style: none;
+      background: none;
+      cursor: pointer;
+
+      > a {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 1rem;
+        color: rgba(255, 255, 255, 0.8);
+        text-decoration: none;
+      }
+
+      > a:hover {
+        color: orangered;
+      }
+    }
+
+    .active {
+      border-bottom: 2px solid #f96507;
+      transition: all 0.3s linear;
+    }
+  }
+}
