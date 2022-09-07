@@ -6,7 +6,7 @@
   padding: 25px 0;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 120px;
+  // margin-top: 120px;
 }
 
 .banner_wrapper {
@@ -22,13 +22,13 @@
     width: 692px;
     height: 112px;
 
-    font-family: 'Raleway';
+    font-family: "Raleway";
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
     line-height: 56px;
 
-    color: #FFFFFF;
+    color: #ffffff;
 
     > b {
       font-weight: 800;
@@ -38,12 +38,12 @@
   > p {
     width: 569px;
     height: 66px;
-    font-family: 'Raleway';
+    font-family: "Raleway";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   > button {
@@ -56,17 +56,16 @@
     padding: 15px 40px;
     gap: 10px;
     color: white;
-    background: #F96507;
+    background: #f96507;
     border: none;
     cursor: pointer;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 
-    font-family: 'Raleway';
+    font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
-    
   }
 
   > button:hover {

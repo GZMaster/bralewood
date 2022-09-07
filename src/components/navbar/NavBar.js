@@ -14,17 +14,16 @@ const NavBar = () => {
 
   return (
     <>
-      <header className="nav__component">
-        <div className="mini_contact_bar">
-          <div className="mini_contact_div">
-            <img src={mailIcon} alt="mail icon" />
-            <h3>info@bralewood.com</h3>
-            <div className="nav_vl"></div>
-            <img src={phoneIcon} alt="phone icon" />
-            <h3>01-4545505</h3>
-          </div>
+      <div className="mini_contact_bar">
+        <div className="mini_contact_div">
+          <img src={mailIcon} alt="mail icon" />
+          <h3>info@bralewood.com</h3>
+          <div className="nav_vl"></div>
+          <img src={phoneIcon} alt="phone icon" />
+          <h3>01-4545505</h3>
         </div>
-
+      </div>
+      <header className="nav__component sticky">
         <div className="nav_bar">
           <div className="nav__logo">
             <img className="logo" src={logo} alt="" />
