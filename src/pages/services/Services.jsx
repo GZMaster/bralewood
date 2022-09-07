@@ -6,7 +6,7 @@ import "./Services.scss";
 const Services = () => {
   const [cardData] = useState(Data);
   return (
-    <section className="S_Container">
+    <section id="services" className="S_Container">
       <div className="S_Wrapper">
         <div className="S_Top">
           <h2>OUR SERVICES</h2>
