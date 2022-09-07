@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
-// import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import BurgerMenu from "../hamburger/BurgerMenu";
 import UseMediaQuery from "../mediaquery/UseMediaQuery";
 import logo from "../../assets/Logo.jpg";
@@ -10,6 +10,7 @@ import "./NavBar.scss";
 
 const NavBar = () => {
   // const [selectPage, setSelectPage] = useState("");
+  const navigate = useNavigate();
   let isPageWide = UseMediaQuery("(min-width: 860px)");
 
   return (
@@ -32,29 +33,45 @@ const NavBar = () => {
           {isPageWide ? (
             <ul className="nav__buttons_holder">
               <li className="nav__button">
-                <Link activeClass="active" smooth spy to="home">
+                <Link
+                  activeClass="active"
+                  smooth
+                  spy
+                  to="home"
+                  onClick={() => navigate("/")}
+                >
                   Home
                 </Link>
               </li>
               <li className="nav__button">
-                <Link activeClass="active" smooth spy to="about">
-                  About Us
-                </Link>
+                <NavLink to="/about">About Us</NavLink>
               </li>
               <li className="nav__button">
-                <Link activeClass="active" smooth spy to="services">
+                <Link
+                  activeClass="active"
+                  smooth
+                  spy
+                  to="services"
+                  onClick={() => navigate("/")}
+                >
                   Services
                 </Link>
               </li>
 
               {/* <li className="nav__button">
-                  <Link activeClass="active" smooth spy to="blog">
+                  <Link activeClass="active" smooth spy to="blog" onClick={() => navigate("/")}>
                     Our Blog
                   </Link>
                 </li> */}
 
               <li className="nav__button">
-                <Link activeClass="active" smooth spy to="contact" h3>
+                <Link
+                  activeClass="active"
+                  smooth
+                  spy
+                  to="contact"
+                  onClick={() => navigate("/")}
+                >
                   Contact Us
                 </Link>
               </li>

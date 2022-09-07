@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import "./Banner.scss";
 
 const Banner = () => {
@@ -13,7 +14,9 @@ const Banner = () => {
           commodo ligula eget dolor. Aenean massa. Cum sociis natoque
           pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
         </p>
-        <button>Get in touch</button>
+        <Link activeClass="active" smooth spy to="contact">
+          Get in touch
+        </Link>
       </div>
     </div>
   );

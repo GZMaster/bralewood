@@ -46,7 +46,7 @@
     color: #ffffff;
   }
 
-  > button {
+  > a {
     display: flex;
     width: 197px;
     height: 49px;
@@ -66,6 +66,7 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
+    text-decoration: none;
   }
 
   > button:hover {
