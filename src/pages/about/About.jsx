@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import One from "../../assets/bralewood assets/Mask groupabout.png";
 import Two from "../../assets/bralewood assets/Mask groupabout (1).png";
 import Three from "../../assets/bralewood assets/Mask groupabout (2).png";
@@ -32,7 +33,7 @@ const About = () => {
             quia, delectus recusandae, exercitationem nobis odit fugit adipisci
             nam voluptate!
           </p>
-          <button className="A_Btn">More About Us</button>
+          <NavLink className="A_Btn" to="/about">More About Us</NavLink>
         </div>
         <div className="A_Image_Wrap">
           <img src={One} className="A_Image" alt={One} />
