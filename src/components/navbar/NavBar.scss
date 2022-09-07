@@ -103,7 +103,8 @@
     }
 
     .active {
-      border-bottom: 1px solid #fff;
+      border-bottom: 2px solid #f96507;
+      transition: all 0.3s linear;
     }
   }
 }
