@@ -33,6 +33,7 @@ const NavBar = () => {
           {isPageWide ? (
             <ul className="nav__buttons_holder">
               <li className="nav__button">
+
                 <Link
                   activeClass="active"
                   smooth
@@ -40,6 +41,7 @@ const NavBar = () => {
                   to="home"
                   onClick={() => navigate("/")}
                 >
+
                   Home
                 </Link>
               </li>
