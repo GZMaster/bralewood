@@ -37,6 +37,11 @@
   width: fit-content;
   text-decoration: none;
 }
+.A_Btn:hover {
+  color: white;
+  transition: all 0.3s linear;
+  background-color: #f96507;
+}
 .A_Text_Title {
   color: #000015;
   line-height: 23.48px;

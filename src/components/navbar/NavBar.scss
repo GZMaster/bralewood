@@ -1,5 +1,6 @@
 .nav__component {
   width: 100%;
+  z-index: 1000;
 }
 .mini_contact_bar {
   width: 100%;
@@ -101,7 +102,10 @@
     }
 
     .active {
-      text-decoration: underline;
+      border-bottom: 2px solid #f96507;
+      transition: all 0.3s linear;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 }
