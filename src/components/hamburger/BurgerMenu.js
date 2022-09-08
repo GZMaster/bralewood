@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { NavLink, Link, useNavigate } from "react-router-dom";
+import { Link } from "react-scroll";
+import { useNavigate } from "react-router-dom";
 import { Turn as Hamburger } from "hamburger-react";
 import "./BurgerMenu.scss";
 
@@ -25,9 +26,9 @@ const BurgerMenu = () => {
         <ul>
           <li>
             <Link
-              activeClass="active"
-              smooth
-              spy
+              activeclass="active"
+              smooth={true}
+              spy={true}
               to="home"
               offset={-80}
               onClick={handleClick}
@@ -36,15 +37,22 @@ const BurgerMenu = () => {
             </Link>
           </li>
           <li>
-            <NavLink to="/about" onClick={handleClick}>
+            <Link
+              activeclass="active"
+              smooth={true}
+              spy={true}
+              to="about"
+              offset={-80}
+              onClick={handleClick}
+            >
               About Us
-            </NavLink>
+            </Link>
           </li>
           <li>
             <Link
-              activeClass="active"
-              smooth
-              spy
+              activeclass="active"
+              smooth={true}
+              spy={true}
               to="services"
               offset={-80}
               onClick={handleClick}
@@ -54,9 +62,9 @@ const BurgerMenu = () => {
           </li>
           <li>
             <Link
-              activeClass="active"
-              smooth
-              spy
+              activeclass="active"
+              smooth={true}
+              spy={true}
               offset={-80}
               to="contact"
               onClick={handleClick}
