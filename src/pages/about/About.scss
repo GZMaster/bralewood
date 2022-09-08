@@ -1,5 +1,5 @@
 .A_Container {
-  height: 100vh;
+  height: auto;
   background-color: #fdfdfe;
 }
 .A_Wrapper {
@@ -54,6 +54,24 @@
 }
 .A_Blue {
   color: #000098;
+}
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+  .A_Wrapper {
+    flex-direction: row;
+    padding: 2rem 1rem;
+    margin: 0;
+  }
+  .A_Image_Wrap img {
+    width: 48%;
+  }
+  .A_Text_Wrap p {
+    line-height: 22px;
+    font-size: 1rem;
+  }
+  .A_Text_Header {
+    line-height: 32px;
+    font-size: 2.2rem;
+  }
 }
 @media screen and (max-width: 768px) {
   .A_Wrapper {

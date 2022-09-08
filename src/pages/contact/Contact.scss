@@ -110,6 +110,11 @@
 .C_item:nth-last-child(n) {
   margin-right: 0;
 }
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+  .C_Wrapper {
+    width: 90%;
+  }
+}
 @media screen and (max-width: 768px) {
   .Contact_Wrapper {
     flex-direction: column-reverse;
