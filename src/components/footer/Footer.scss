@@ -45,10 +45,18 @@
     align-content: center;
   }
   .F_text {
-    text-align: center;
+    text-align: left;
+    margin: 0;
+    padding: 1rem;
+  }
+  .F_Socials {
+    margin: 0;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
   }
   .F_item {
     margin-right: 0;
-    font-size: 24px;
+    font-size: 30px;
   }
 }

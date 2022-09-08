@@ -16,7 +16,7 @@ const Banner = () => {
           consulting, cash deliveries and many more.
         </p>
         <Link activeClass="active" smooth spy to="contact">
-          Get in touch
+          Contact Us
         </Link>
       </div>
     </div>

@@ -63,7 +63,7 @@ const Contact = () => {
             </div>
             <input
               type="text"
-              placeholder="your subject"
+              placeholder="subject"
               name="from_subject"
               value={toSend.from_email}
               className="form_control"

@@ -1,11 +1,15 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link, useNavigate } from "react-router-dom";
 import { Turn as Hamburger } from "hamburger-react";
 import "./BurgerMenu.scss";
 
 const BurgerMenu = () => {
   const [isOpen, setOpen] = useState(false);
-
+  const navigate = useNavigate();
+  const handleClick = () => {
+    setOpen(false);
+    navigate("/");
+  };
   return (
     <div>
       <Hamburger
@@ -14,35 +18,49 @@ const BurgerMenu = () => {
         toggle={setOpen}
         direction="right"
         duration={0.8}
-        color="#000"
+        color="#fff"
       />
 
       <div className={`panel ${isOpen ? "open" : "close"}`}>
         <ul>
           <li>
-            <NavLink to="/" onClick={() => setOpen(false)}>
+            <Link
+              activeClass="active"
+              smooth
+              spy
+              to="home"
+              offset={-80}
+              onClick={handleClick}
+            >
               Home
-            </NavLink>
+            </Link>
           </li>
           <li>
-            <NavLink to="/about" onClick={() => setOpen(false)}>
-              About
-            </NavLink>
+            <NavLink to="/about">About Us</NavLink>
           </li>
           <li>
-            <NavLink to="/management" onClick={() => setOpen(false)}>
-              Our Management
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/services" onClick={() => setOpen(false)}>
+            <Link
+              activeClass="active"
+              smooth
+              spy
+              to="services"
+              offset={-80}
+              onClick={handleClick}
+            >
               Services
-            </NavLink>
+            </Link>
           </li>
           <li>
-            <NavLink to="/contacts" onClick={() => setOpen(false)}>
-              Contact
-            </NavLink>
+            <Link
+              activeClass="active"
+              smooth
+              spy
+              offset={-80}
+              to="contact"
+              onClick={handleClick}
+            >
+              Contact Us
+            </Link>
           </li>
         </ul>
       </div>
