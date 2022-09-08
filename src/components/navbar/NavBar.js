@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
-import { NavLink, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import BurgerMenu from "../hamburger/BurgerMenu";
 import UseMediaQuery from "../mediaquery/UseMediaQuery";
 import logo from "../../assets/Logo.jpg";
@@ -8,10 +8,10 @@ import mailIcon from "../../assets/bralewood assets/mailmini.png";
 import phoneIcon from "../../assets/bralewood assets/phone-callmini.png";
 import "./NavBar.scss";
 
-const NavBar = () => {
+function NavBar() {
   // const [selectPage, setSelectPage] = useState("");
   const navigate = useNavigate();
-  let isPageWide = UseMediaQuery("(min-width: 860px)");
+  let isPageWide = UseMediaQuery("(min-width: 769px)");
 
   return (
     <>
@@ -34,9 +34,9 @@ const NavBar = () => {
             <ul className="nav__buttons_holder">
               <li className="nav__button">
                 <Link
-                  activeClass="active"
-                  smooth
-                  spy
+                  activeclass="active"
+                  smooth={true}
+                  spy={true}
                   to="home"
                   offset={-80}
                   onClick={() => navigate("/")}
@@ -45,13 +45,22 @@ const NavBar = () => {
                 </Link>
               </li>
               <li className="nav__button">
-                <NavLink to="/about">About Us</NavLink>
+                <Link
+                  activeclass="active"
+                  smooth={true}
+                  spy={true}
+                  to="about"
+                  offset={-80}
+                  onClick={() => navigate("/")}
+                >
+                  About Us
+                </Link>
               </li>
               <li className="nav__button">
                 <Link
-                  activeClass="active"
-                  smooth
-                  spy
+                  activeclass="active"
+                  smooth={true}
+                  spy={true}
                   to="services"
                   offset={-80}
                   onClick={() => navigate("/")}
@@ -59,18 +68,11 @@ const NavBar = () => {
                   Services
                 </Link>
               </li>
-
-              {/* <li className="nav__button">
-                  <Link activeClass="active" smooth spy to="blog" onClick={() => navigate("/")}>
-                    Our Blog
-                  </Link>
-                </li> */}
-
               <li className="nav__button">
                 <Link
-                  activeClass="active"
-                  smooth
-                  spy
+                  activeclass="active"
+                  smooth={true}
+                  spy={true}
                   offset={-80}
                   to="contact"
                   onClick={() => navigate("/")}

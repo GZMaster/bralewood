@@ -2,27 +2,25 @@
 
 .hamburger_button {
   z-index: 10;
+  margin-left: 10px;
 }
 
 .panel {
-  max-width: 500px;
-  // min-width: 240px;
-  background-color: #fff;
+  background-color: #000015;
   background-size: 117px 188px;
   transition: all 0.4s cubic-bezier(0.42, 0, 0.34, 1.01);
   position: fixed;
   z-index: -1;
   right: -100%;
-  top: 0;
-  height: 100%;
+  top: 80px;
+  height: fit-content;
   visibility: hidden;
   opacity: 0;
-  padding: 1em;
   display: flex;
 
   &.open {
     visibility: visible;
-    width: 40%;
+    width: 100%;
     right: 0;
     opacity: 1;
   }
@@ -30,23 +28,23 @@
 
 .panel ul {
   width: 100%;
-  padding: 3rem 1rem;
+  padding: 1rem;
 
   li {
     list-style: none;
-    font-size: 1em;
-    text-align: right;
+    font-size: 1.4rem;
+    text-align: center;
 
     & + li {
-      margin-top: 1em;
+      margin-top: 1rem;
     }
 
     a {
       text-decoration: none;
-      color: rgba(0, 0, 0, 0.6);
+      color: rgb(255, 255, 255);
 
       &:hover {
-        color: #2ea3f2;
+        color: #f96507;
       }
     }
   }

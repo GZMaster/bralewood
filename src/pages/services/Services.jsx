@@ -12,9 +12,7 @@ const Services = () => {
           <h2>OUR SERVICES</h2>
         </div>
         <p className="S_Wrapper_Text">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum,
-          provident doloremque. Placeat iusto sint id accusamus laboriosam
-          dignissimos commodi nemo.
+          Below are some of the services we offer to our clients
         </p>
         <Card items={cardData} />
       </div>
