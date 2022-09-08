@@ -14,6 +14,7 @@ const Contact = () => {
     message: "",
     reply_to: "info@bralewood.com",
     from_email: "",
+    subject: "",
   });
 
   const onSubmit = (e) => {
@@ -64,7 +65,7 @@ const Contact = () => {
               type="text"
               placeholder="subject"
               name="from_subject"
-              value={toSend.from_email}
+              value={toSend.subject}
               className="form_control"
               onChange={handleChange}
             />
