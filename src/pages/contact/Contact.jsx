@@ -38,8 +38,7 @@ const Contact = () => {
       <div className="C_Wrapper">
         <h4 className="C_title">Contact Us</h4>
         <p className="C_Text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nulla
-          totam hic aspernatur vel quia ipsa distinctio repudiandae nostrum ea?
+        Allow us the opportunity to tend to all your financial needs and we can assure you that the first time will most definitely not be the last
         </p>
         <section className="Contact_Wrapper">
           <form className="C_Form" onSubmit={onSubmit}>
