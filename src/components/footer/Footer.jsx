@@ -11,15 +11,30 @@ const Footer = () => {
         </p>
       </div>
       <div className="F_Socials">
-        <div className="F_item">
+        <a
+          href="https://www.facebook.com/profile.php?id=100084729275588"
+          className="F_item"
+          target={"_blank"}
+          rel="noreferrer"
+        >
           <FaFacebookF />
-        </div>
-        <div className="F_item">
+        </a>
+        <a
+          href="https://www.linkedin.com/company/bralewood-investment-limited/"
+          className="F_item"
+          target={"_blank"}
+          rel="noreferrer"
+        >
           <FaLinkedin />
-        </div>
-        <div className="F_item">
+        </a>
+        <a
+          href="https://www.instagram.com/bralewoodinvestments/"
+          className="F_item"
+          target={"_blank"}
+          rel="noreferrer"
+        >
           <FaInstagram />
-        </div>
+        </a>
       </div>
     </footer>
   );

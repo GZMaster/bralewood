@@ -11,7 +11,7 @@ import "./NavBar.scss";
 const NavBar = () => {
   // const [selectPage, setSelectPage] = useState("");
   const navigate = useNavigate();
-  let isPageWide = UseMediaQuery("(min-width: 860px)");
+  let isPageWide = UseMediaQuery("(min-width: 769px)");
 
   return (
     <>

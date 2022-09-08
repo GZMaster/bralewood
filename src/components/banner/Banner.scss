@@ -73,3 +73,56 @@
     background-color: #fd802f;
   }
 }
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+  .banner_container {
+    height: auto;
+    padding: 0;
+  }
+  .banner_wrapper {
+    margin: 0;
+    padding: 2rem;
+    gap: 1rem;
+    width: 100%;
+    justify-content: flex-start;
+    > h3 {
+      width: 80%;
+      height: auto;
+      font-size: 40px;
+      line-height: 42px;
+      margin-bottom: 1rem;
+    }
+    > p {
+      width: 80%;
+      height: auto;
+      font-size: 1.1rem;
+      line-height: 25px;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .banner_container {
+    background-image: url("../../assets/bralewood assets/Mobile Hero Image.png");
+    background-repeat: no-repeat;
+    height: 80vh;
+  }
+  .banner_wrapper {
+    margin: 0;
+    padding: 0 1rem;
+    gap: 1rem;
+    width: 100%;
+    justify-content: flex-start;
+    > h3 {
+      width: 90%;
+      height: auto;
+      font-size: 32px;
+      line-height: 37px;
+      margin-bottom: 1rem;
+    }
+    > p {
+      width: 90%;
+      height: auto;
+      font-size: 1rem;
+      line-height: 25px;
+    }
+  }
+}

@@ -17,29 +17,30 @@ const Interlude = () => {
           </h3>
           <div className="I_Item_Wrapper">
             <div className="I_Item">
-              <FiCheckCircle style={{ color: "#f96507", fontSize: "40px" }} />
-              <p>
-              We are a company rooted in integrity, you can trust us.
-              </p>
+              <FiCheckCircle />
+              <span>
+                We are a company rooted in integrity, you can trust us.
+              </span>
             </div>
             <div className="I_Item">
-              <FiCheckCircle style={{ color: "#f96507", fontSize: "40px" }} />
-              <p>
-              We pride ourselves in making transactions as swift possible
-              </p>
+              <FiCheckCircle />
+              <span>
+                We pride ourselves in making transactions as swift possible
+              </span>
+            </div>
+            <div className="I_Item I_Big">
+              <FiCheckCircle />
+              <span>
+                Our services are rendered to the highest degree of excellence,
+                you won’t be disappointed you chose us,
+              </span>
             </div>
             <div className="I_Item">
-              <FiCheckCircle style={{ color: "#f96507", fontSize: "40px" }} />
-              <p>
-              Our services are rendered to the highest degree of excellence, you won’t be
-disappointed you chose us,
-              </p>
-            </div>
-            <div className="I_Item">
-              <FiCheckCircle style={{ color: "#f96507", fontSize: "40px" }} />
-              <p>
-              Competitive pricing to ensure you have the overall best experience with us
-              </p>
+              <FiCheckCircle />
+              <span>
+                Competitive pricing to ensure you have the overall best
+                experience with us
+              </span>
             </div>
           </div>
         </div>

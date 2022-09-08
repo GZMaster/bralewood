@@ -4,9 +4,10 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 5px;
+  align-items: baseline;
 }
 .Card {
-  flex: 1;
+  width: 20%;
   margin-bottom: 2.5rem;
   display: flex;
   flex-direction: column;
@@ -24,6 +25,7 @@
   transform: scale(1.05);
   transition: all 0.5s linear;
   z-index: 1;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .Card img {
   margin-bottom: 20px;
@@ -40,7 +42,21 @@
   font-size: 14px;
   line-height: 20px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+  .Card_Wrapper {
+    padding: 2rem 0;
+  }
+  .Card {
+    width: 19%;
+  }
+  .Card p {
+    text-align: center;
+  }
+  .Card h6 {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 768px) {
   .Card {
     width: 100%;
     flex: auto;
