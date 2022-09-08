@@ -4,9 +4,10 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 5px;
+  align-items: baseline;
 }
 .Card {
-  flex: 1;
+  width: 20%;
   margin-bottom: 2.5rem;
   display: flex;
   flex-direction: column;
