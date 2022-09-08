@@ -42,6 +42,20 @@
   font-size: 14px;
   line-height: 20px;
 }
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+  .Card_Wrapper {
+    padding: 2rem 0;
+  }
+  .Card {
+    width: 19%;
+  }
+  .Card p {
+    text-align: center;
+  }
+  .Card h6 {
+    font-size: 1rem;
+  }
+}
 @media screen and (max-width: 768px) {
   .Card {
     width: 100%;

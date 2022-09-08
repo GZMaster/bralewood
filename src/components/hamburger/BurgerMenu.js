@@ -36,7 +36,9 @@ const BurgerMenu = () => {
             </Link>
           </li>
           <li>
-            <NavLink to="/about">About Us</NavLink>
+            <NavLink to="/about" onClick={handleClick}>
+              About Us
+            </NavLink>
           </li>
           <li>
             <Link

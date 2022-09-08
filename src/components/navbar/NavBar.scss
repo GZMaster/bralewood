@@ -108,7 +108,27 @@
     }
   }
 }
-
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+  .nav_bar {
+    justify-content: space-around;
+  }
+  .nav__logo {
+    margin-left: 0 !important;
+  }
+  .nav__buttons_holder {
+    margin-right: 0 !important;
+    width: fit-content !important;
+    padding-left: 0;
+  }
+  .nav_bar .nav__buttons_holder .nav__button {
+    margin-right: 1.5rem;
+    height: auto;
+    width: fit-content;
+  }
+  .nav_bar .nav__buttons_holder .nav__button > a {
+    font-size: 1.2rem;
+  }
+}
 @media screen and (max-width: 768px) {
   .mini_contact_bar {
     display: none;
