@@ -38,6 +38,7 @@ const NavBar = () => {
                   smooth
                   spy
                   to="home"
+                  offset={-80}
                   onClick={() => navigate("/")}
                 >
                   Home
@@ -52,6 +53,7 @@ const NavBar = () => {
                   smooth
                   spy
                   to="services"
+                  offset={-80}
                   onClick={() => navigate("/")}
                 >
                   Services
@@ -69,6 +71,7 @@ const NavBar = () => {
                   activeClass="active"
                   smooth
                   spy
+                  offset={-80}
                   to="contact"
                   onClick={() => navigate("/")}
                 >

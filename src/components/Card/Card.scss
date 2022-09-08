@@ -23,6 +23,7 @@
 .Card:hover {
   transform: scale(1.05);
   transition: all 0.5s linear;
+  z-index: 1;
 }
 .Card img {
   margin-bottom: 20px;
