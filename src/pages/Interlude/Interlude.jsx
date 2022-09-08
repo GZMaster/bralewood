@@ -19,33 +19,26 @@ const Interlude = () => {
             <div className="I_Item">
               <FiCheckCircle style={{ color: "#f96507", fontSize: "40px" }} />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
-                ad veritatis blanditiis quia eaque numquam odio alias aliquid
-                maiores aut!
+              We are a company rooted in integrity, you can trust us.
               </p>
             </div>
             <div className="I_Item">
               <FiCheckCircle style={{ color: "#f96507", fontSize: "40px" }} />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
-                ad veritatis blanditiis quia eaque numquam odio alias aliquid
-                maiores aut!
+              We pride ourselves in making transactions as swift possible
               </p>
             </div>
             <div className="I_Item">
               <FiCheckCircle style={{ color: "#f96507", fontSize: "40px" }} />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
-                ad veritatis blanditiis quia eaque numquam odio alias aliquid
-                maiores aut!
+              Our services are rendered to the highest degree of excellence, you won’t be
+disappointed you chose us,
               </p>
             </div>
             <div className="I_Item">
               <FiCheckCircle style={{ color: "#f96507", fontSize: "40px" }} />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
-                ad veritatis blanditiis quia eaque numquam odio alias aliquid
-                maiores aut!
+              Competitive pricing to ensure you have the overall best experience with us
               </p>
             </div>
           </div>

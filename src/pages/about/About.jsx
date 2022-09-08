@@ -17,21 +17,14 @@ const About = () => {
             <span className="A_Blue">WOOD</span> INVESTMENTS LTD
           </div>
           <h3 className="A_Text_Header">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni,
-            tempore.
+          We are the best Investment Platform
           </h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            eveniet non eum voluptatem repellendus est iusto quos voluptas,
-            voluptatibus cumque blanditiis quam dolorem porro accusantium quasi
-            tempore ullam modi vero corporis odio harum ipsa ad quisquam veniam.
-            At, itaque libero.
-          </p>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam,
-            enim. Est sequi quasi pariatur et quae consequuntur harum natus amet
-            quia, delectus recusandae, exercitationem nobis odit fugit adipisci
-            nam voluptate!
+          Bralewood Investment limited is one of Nigeria’s leading providers of foreign exchange
+related services and all round financial solutions. Our clientele base spans across
+various industries such as construction, telecommunications, IT, breweries etc.
+With a team of professional and passion driven individuals, our primary goal is to create
+a financial utopia for our clients as they deserve nothing less.
           </p>
           <NavLink className="A_Btn" to="/about">More About Us</NavLink>
         </div>
