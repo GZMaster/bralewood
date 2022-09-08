@@ -25,6 +25,7 @@
   transform: scale(1.05);
   transition: all 0.5s linear;
   z-index: 1;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .Card img {
   margin-bottom: 20px;
@@ -41,7 +42,7 @@
   font-size: 14px;
   line-height: 20px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .Card {
     width: 100%;
     flex: auto;

@@ -115,31 +115,67 @@
     flex-direction: column-reverse;
   }
   .C_title {
-    font-size: 2rem;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .C_Text {
+    width: 100%;
+    font-size: 1rem;
+    line-height: 22px;
   }
   .C_Info {
-    text-align: center;
+    text-align: left;
     justify-content: center;
     align-content: center;
-    align-items: center;
     padding: 0 0.5rem;
-    margin-top: 2rem;
-    background-color: white;
+    background-color: transparent;
     flex-direction: column;
   }
   .C_item_title {
-    justify-content: center;
+    margin-top: 0;
+  }
+  .C_item {
+    padding: 1rem;
+    margin: 0 !important;
   }
   .C_item-text {
     align-self: center;
     width: 100%;
+    margin: 0;
+    font-size: 1rem;
+    line-height: 22px;
   }
   .C_Wrapper {
-    padding: 20px;
-    width: 90%;
+    padding: 2rem 1rem;
+    width: 100%;
   }
   .C_btn {
     width: fit-content;
     padding: 1rem 1.5rem;
+  }
+  .C_Container {
+    padding: 0;
+    display: flex;
+    width: 100%;
+    background-image: url("../../assets/bralewood assets/Mobile Contact Us Image.png");
+    background-repeat: round;
+    background-size: contain;
+  }
+  .C_Form {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background-color: white;
+  }
+  .C_Flex {
+    flex-direction: column;
+    gap: 0;
+  }
+  .form_control {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }
+  .C_btn {
+    background-color: #f96507;
+    width: 100%;
+    margin-top: 0;
   }
 }

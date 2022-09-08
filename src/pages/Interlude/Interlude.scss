@@ -16,6 +16,10 @@
 .I_Left {
   align-self: center;
 }
+.I_Item svg {
+  font-size: 30px !important;
+  color: #f96507;
+}
 .I_Title {
   font-size: 40px;
   line-height: 40px;
@@ -28,11 +32,46 @@
 .I_Item {
   display: flex;
   gap: 10px;
+  margin-bottom: 1rem;
   align-items: center;
+}
+.I_Big svg {
+  font-size: 45px !important;
 }
 .I_Item img {
   width: 40px;
   height: 40px;
   align-self: center;
   object-fit: cover;
+}
+@media screen and (max-width: 768px) {
+  .I_Wrapper {
+    padding: 2rem 1rem;
+    margin: 0;
+    flex-direction: column-reverse;
+  }
+  .I_Title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .I_Item {
+    margin-bottom: 1rem;
+  }
+  .I_Item svg {
+    font-size: 40px !important;
+    width: 45px;
+    height: 45px;
+    color: #f96507;
+  }
+  .I_Item span {
+    font-size: 1rem;
+    line-height: 22px;
+    margin: 0;
+  }
+  .I_Left img {
+    width: 100%;
+  }
+  .I_Container {
+    height: auto;
+  }
 }

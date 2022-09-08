@@ -63,7 +63,7 @@
     background: #ffffff;
 
     .logo {
-      width: 80%;
+      width: 90%;
       flex: none;
       order: 0;
       flex-grow: 0;
@@ -106,5 +106,18 @@
       border-bottom: 2px solid #f96507;
       transition: all 0.3s linear;
     }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mini_contact_bar {
+    display: none;
+  }
+  .nav_bar {
+    flex-direction: row-reverse;
+  }
+  .nav__logo {
+    margin-left: 0;
+    margin-right: 25px;
   }
 }
