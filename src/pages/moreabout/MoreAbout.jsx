@@ -42,7 +42,7 @@ const MoreAbout = () => {
       </div>
       <div className="A_Interlude">
         <div className="I_Wrapper">
-          <div className="I_Left">
+          <div className="A_I_Left">
             <img src={Pic} alt="" />
             <img src={Pic2} alt="" />
           </div>
@@ -58,26 +58,34 @@ const MoreAbout = () => {
             </p>
             <div className="I_Item_Wrapper">
               <div className="I_Item">
-                <FiCheckCircle />
+                <div className="I_ItemIcon">
+                  <FiCheckCircle />
+                </div>
                 <span>
                   We are a company rooted in integrity, you can trust us.
                 </span>
               </div>
               <div className="I_Item">
-                <FiCheckCircle />
+                <div className="I_ItemIcon">
+                  <FiCheckCircle />
+                </div>
                 <span>
                   We pride ourselves in making transactions as swift possible
                 </span>
               </div>
-              <div className="I_Item I_Big">
-                <FiCheckCircle />
+              <div className="I_Item">
+                <div className="I_ItemIcon">
+                  <FiCheckCircle />
+                </div>
                 <span>
                   Our services are rendered to the highest degree of excellence,
                   you won’t be disappointed you chose us,
                 </span>
               </div>
               <div className="I_Item">
-                <FiCheckCircle />
+                <div className="I_ItemIcon">
+                  <FiCheckCircle />
+                </div>
                 <span>
                   Competitive pricing to ensure you have the overall best
                   experience with us
