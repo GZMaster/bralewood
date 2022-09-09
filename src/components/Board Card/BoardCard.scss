@@ -21,6 +21,7 @@
   display: flex;
   gap: 2rem;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .BoardCard:hover {
   transform: scale(1.03);
