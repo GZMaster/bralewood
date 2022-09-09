@@ -16,10 +16,7 @@
 .I_Left {
   align-self: center;
 }
-.I_Item svg {
-  font-size: 30px;
-  color: #f96507;
-}
+
 .I_Title {
   font-size: 40px;
   line-height: 40px;
@@ -35,8 +32,14 @@
   margin-bottom: 1rem;
   align-items: center;
 }
-.I_Big svg {
-  font-size: 45px !important;
+
+.I_ItemIcon {
+  background-color: transparent;
+  padding: 0;
+}
+.I_ItemIcon svg {
+  font-size: 30px;
+  color: #f96507;
 }
 .I_Item img {
   width: 40px;
@@ -79,12 +82,7 @@
   .I_Item {
     margin-bottom: 1rem;
   }
-  .I_Item svg {
-    font-size: 40px;
-    width: 45px;
-    height: 45px;
-    color: #f96507;
-  }
+
   .I_Item span {
     font-size: 1rem;
     line-height: 22px;
