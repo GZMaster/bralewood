@@ -30,7 +30,7 @@ const BurgerMenu = () => {
               smooth={true}
               spy={true}
               to="home"
-              offset={-80}
+              offset={-60}
               onClick={handleClick}
             >
               Home
@@ -42,7 +42,7 @@ const BurgerMenu = () => {
               smooth={true}
               spy={true}
               to="about"
-              offset={-80}
+              offset={-60}
               onClick={handleClick}
             >
               About Us
@@ -54,7 +54,7 @@ const BurgerMenu = () => {
               smooth={true}
               spy={true}
               to="services"
-              offset={-80}
+              offset={-60}
               onClick={handleClick}
             >
               Services
@@ -65,7 +65,7 @@ const BurgerMenu = () => {
               activeclass="active"
               smooth={true}
               spy={true}
-              offset={-80}
+              offset={-60}
               to="contact"
               onClick={handleClick}
             >
