@@ -14,7 +14,7 @@ const MoreAbout = () => {
     <section>
       <div className="About_Hero">
         <h4>
-          World-class services to your door step or something idk.(Slogan)
+        To promise world-class financial services, through sustainable business practices
         </h4>
       </div>
       <div className="A_Intro">
@@ -27,14 +27,10 @@ const MoreAbout = () => {
             INVESTMENTS LTD
           </h3>
           <p>
-            Bralewood Investment limited is one of Nigeria’s leading providers
-            of foreign exchange related services and all round financial
-            solutions. Our clientele base spans across various industries such
-            as construction, telecommunications, IT, breweries etc. With a team
-            of professional and passion driven individuals, our primary goal is
-            to create a financial utopia for our clients as they deserve nothing
-            less.
+          Bralewood Investments Ltd was incorporated in 2019 and was established to carry on the business of an investment company and for that purpose to acquire and hold in the name of the company, stocks, debentures, bonds, notes, obligations and securities issued or guaranteed by any company in Nigeria and securities issued or guaranteed by any government, sovereign rulers, commissioners, public body or authority in Nigeria.
           </p>
+          <p>To carry on business as investment consultants to broker investment and business transactions between prospective investors and businesses or idea developers and inventors and to generally serve as business incubators.</p>
+          <p>Bralewood’s immediate to short-term business model and core primary area of business is Foreign Exchange trading, which will gradually evolve into other lines of businesses including businesses within and outside the financial intermediation space. Bralewood commenced business on August 5, 2019.</p>
         </div>
         <div className="A_Image_Wrap">
           <img src={One} className="A_Image" alt={One} />
@@ -52,9 +48,7 @@ const MoreAbout = () => {
               <span className="I_Orange"> Core </span> Values
             </h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat
-              error quaerat deserunt officiis deleniti? Placeat deleniti
-              expedita animi eum harum!
+              These are our Core Values:
             </p>
             <div className="I_Item_Wrapper">
               <div className="I_Item">
@@ -93,9 +87,7 @@ const MoreAbout = () => {
       </div>
       <div className="A_Contact">
         <p className="A_Contact_Text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim ipsam
-          aliquid officia repellendus qui iure, nobis, eligendi, cum ipsa id
-          animi quas velit amet aperiam minima ipsum dignissimos blanditiis sit.
+        We are committed to our Clients’ Growth andImprovement, and introduce world-class proven Innovations, Ideas, Products and Services to suit their needs. With our team of experts in various fields, our aim is to create value for our clients and their organizations. We will ensure that our unique services are delivered as promised.
         </p>
         <NavLink className="A_Btn" to={"/"}>
           Contact Us
