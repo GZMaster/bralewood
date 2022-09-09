@@ -11,6 +11,21 @@
   margin-top: 1rem;
   padding-left: 0.5rem;
 }
+.card_details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.board_icon_linkedin {
+  color: #666;
+  margin-right: 1rem;
+  font-size: 26px;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+.board_icon_linkedin:hover {
+  color: #fd802f;
+}
 .BoardRole {
   color: #000015cc;
   font-size: 14px;
