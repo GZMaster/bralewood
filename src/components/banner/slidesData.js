@@ -19,22 +19,24 @@ export const slides = [
     image: image2,
   },
   {
-    title: "Investments Limited",
-    subtitle: "BraleWood",
+    title: "BraleWood",
+    subtitle: "Investments Limited",
     description:
       "financial services firm with specialization in Bureau De Change",
     image: image1,
   },
   {
-    title: "",
-    subtitle: "",
-    description: "",
+    title: "BUREAU DE CHANGE",
+    subtitle: "Fx Management",
+    description:
+      "guaranteed correct and accurate exchange rates with  little or no interest",
     image: image4,
   },
   {
-    title: "",
-    subtitle: "",
-    description: "",
+    title: "INVESTMENT ",
+    subtitle: "helps investors",
+    description:
+      "invest their capital in those economic entities for the  most productive",
     image: image5,
   },
 ];

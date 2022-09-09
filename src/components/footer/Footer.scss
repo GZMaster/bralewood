@@ -1,0 +1,82 @@
+.Footer {
+  background-color: #000015;
+  width: 100%;
+  height: 15%;
+  padding: 0.5rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.F_text {
+  font-weight: 300;
+  color: #ffffffcc;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+  margin-left: 120px;
+}
+.F_text p {
+  margin: 0.1rem;
+}
+.F_Team {
+  font-weight: bold !important;
+}
+.F_Socials {
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-right: 120px;
+}
+.F_item {
+  color: #666;
+  margin-right: 1rem;
+  font-size: 26px;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+.F_item:hover {
+  color: #fd802f;
+}
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+  .Footer {
+    justify-content: space-around;
+  }
+  .F_text {
+    text-align: left;
+    margin: 0;
+    padding: 1rem;
+  }
+  .F_Socials {
+    margin: 0;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+  .F_item {
+    margin-right: 0;
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Footer {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: center;
+  }
+  .F_text {
+    text-align: left;
+    margin: 0;
+    padding: 1rem;
+  }
+  .F_Socials {
+    margin: 0;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+  .F_item {
+    margin-right: 0;
+    font-size: 30px;
+  }
+}

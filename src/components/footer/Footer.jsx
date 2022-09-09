@@ -1,28 +1,40 @@
 import React from "react";
-import "./Footer.css";
-import {
-  FaFacebookF,
-  FaLinkedin,
-  FaInstagram,
-} from "react-icons/fa";
+import "./Footer.scss";
+import { FaFacebookF, FaLinkedin, FaInstagram } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="Footer">
       <div className="F_text">
+        <p>Copyright © 2022 Bralewood Investments LTD. All rights reserved.</p>
         <p>
           Designed by <span className="F_Team">Retro Developers</span>
         </p>
       </div>
       <div className="F_Socials">
-        <div className="F_item">
+        <a
+          href="https://www.facebook.com/profile.php?id=100084729275588"
+          className="F_item"
+          target={"_blank"}
+          rel="noreferrer"
+        >
           <FaFacebookF />
-        </div>
-        <div className="F_item">
+        </a>
+        <a
+          href="https://www.linkedin.com/company/bralewood-investment-limited/"
+          className="F_item"
+          target={"_blank"}
+          rel="noreferrer"
+        >
           <FaLinkedin />
-        </div>
-        <div className="F_item">
+        </a>
+        <a
+          href="https://www.instagram.com/bralewoodinvestments/"
+          className="F_item"
+          target={"_blank"}
+          rel="noreferrer"
+        >
           <FaInstagram />
-        </div>
+        </a>
       </div>
     </footer>
   );

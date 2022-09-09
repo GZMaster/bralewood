@@ -1,0 +1,58 @@
+.BoardImage {
+  height: 320px;
+  width: 260px;
+  object-fit: cover;
+}
+.BoardName {
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: 600;
+  color: #000015;
+  margin-top: 1rem;
+  padding-left: 0.5rem;
+}
+.card_details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.board_icon_linkedin {
+  color: #666;
+  margin-right: 1rem;
+  font-size: 26px;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+.board_icon_linkedin:hover {
+  color: #fd802f;
+}
+.BoardRole {
+  color: #000015cc;
+  font-size: 14px;
+  line-height: 19px;
+  padding-left: 0.5rem;
+}
+.BoardWrapper {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.BoardCard:hover {
+  transform: scale(1.03);
+  transition: all 0.5s linear;
+  z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.BoardAchieve {
+  list-style: circle;
+  padding: 0.2rem 1rem;
+  font-size: 14px;
+  line-height: 22px;
+}
+@media screen and (max-width: 768px) {
+  .BoardWrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+}
