@@ -19,7 +19,7 @@ const Contact = () => {
 
   const onSubmit = (e) => {
     e.preventDefault();
-    send("service_hhl8ldq", "template_djummb7", toSend, "IxwXkIwaa63vnsgkR")
+    send("service_uj89d5n","template_o468gn3", toSend, "_KkPJ9bejYGK0Ci_U")
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
       })
