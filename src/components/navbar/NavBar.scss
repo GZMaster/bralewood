@@ -6,12 +6,13 @@
   // width: 100%;
   height: 47px;
   background: rgba(250, 250, 252, 0.7);
+  align-items: center;
 
   .mini_contact_div {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 120px;
+    margin:10px 0  0 120px;
 
     > img {
       width: 20px;
