@@ -1,7 +1,7 @@
 .C_Container {
   display: flex;
   width: 100%;
-  background-image: url("../../assets/bralewood assets/contactPageBg.png");
+  background-image: url("../../assets/bralewood assets/Contact Us Image.png");
   padding: 25px 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -54,7 +54,8 @@
   text-transform: capitalize;
   background: #ff7c25d2;
   color: white;
-  padding: 0.5rem 0.75rem;
+  padding: 15px 40px;
+  gap: 10px;
   letter-spacing: 2px;
   display: inline-block;
   font-weight: 700;
@@ -78,9 +79,18 @@
   background: white;
   text-transform: capitalize;
   letter-spacing: 1.5px;
+  resize: none;
 }
 .form_control:focus-within {
   outline: transparent;
+}
+.form_control::placeholder {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #000015;
 }
 .C_item_title {
   color: #fd802f;

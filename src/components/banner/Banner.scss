@@ -18,34 +18,38 @@
   gap: 10px;
   margin: 0px 120px;
 
-  > h3 {
-    width: 692px;
-    height: 112px;
+  .banner_text {
 
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 56px;
-
-    color: #ffffff;
-
-    > b {
-      font-weight: 800;
+    > h3 {
+      width: 692px;
+      height: 112px;
+  
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 56px;
+      margin-bottom: 1rem;
+  
+      color: #ffffff;
+  
+      > b {
+        font-weight: 800;
+      }
     }
+  
+    > p {
+      width: 569px;
+      height: 66px;
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+      color: #ffffff;
+    }
+  
   }
-
-  > p {
-    width: 569px;
-    height: 66px;
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 140%;
-    color: #ffffff;
-  }
-
   > a {
     display: flex;
     width: 197px;
@@ -84,18 +88,21 @@
     gap: 1rem;
     width: 100%;
     justify-content: flex-start;
-    > h3 {
-      width: 80%;
-      height: auto;
-      font-size: 40px;
-      line-height: 42px;
-      margin-bottom: 1rem;
-    }
-    > p {
-      width: 80%;
-      height: auto;
-      font-size: 1.1rem;
-      line-height: 25px;
+    
+    .banner_text {
+
+      > h3 {
+        width: 80%;
+        height: auto;
+        font-size: 40px;
+        line-height: 42px;
+      }
+      > p {
+        width: 80%;
+        height: auto;
+        font-size: 1.1rem;
+        line-height: 25px;
+      }
     }
   }
 }
@@ -103,7 +110,7 @@
   .banner_container {
     background-image: url("../../assets/bralewood assets/Mobile Hero Image.png");
     background-repeat: no-repeat;
-    height: 80vh;
+    height: auto;
   }
   .banner_wrapper {
     margin: 0;
@@ -111,18 +118,21 @@
     gap: 1rem;
     width: 100%;
     justify-content: flex-start;
-    > h3 {
-      width: 90%;
-      height: auto;
-      font-size: 32px;
-      line-height: 37px;
-      margin-bottom: 1rem;
-    }
-    > p {
-      width: 90%;
-      height: auto;
-      font-size: 1rem;
-      line-height: 25px;
+    .banner_text {
+
+      > h3 {
+        width: 90%;
+        height: auto;
+        font-size: 32px;
+        line-height: 37px;
+        margin-bottom: 1rem;
+      }
+      > p {
+        width: 90%;
+        height: auto;
+        font-size: 1rem;
+        line-height: 25px;
+      }
     }
   }
 }
