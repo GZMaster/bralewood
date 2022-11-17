@@ -17,7 +17,7 @@
   padding: 20px;
   font-size: 16px;
   color: #000015cc;
-  background-color: #fff;
+  background-color: #f5f5f5;
   border-radius: 10px 10px 10px 10px;
   border-color: rgba(0, 0, 152, 0);
 }
@@ -31,16 +31,19 @@
   margin-bottom: 20px;
 }
 .Card h6 {
-  font-weight: 500;
+  font-weight: 600;
   text-transform: capitalize;
   color: #000015;
   font-size: 20px;
   text-align: center;
-  margin: 0;
+  margin-bottom: 20px;
+  font-family: 'Raleway';
+  font-style: normal;
 }
 .Card p {
   font-size: 14px;
   line-height: 20px;
+  text-align: center;
 }
 @media screen and (min-width: 769px) and (max-width: 1199px) {
   .Card_Wrapper {

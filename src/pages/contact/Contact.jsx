@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { send } from "emailjs-com";
+import UseMediaQuery from "../../components/mediaquery/UseMediaQuery";
 import "./Contact.scss";
 import "../services/Services.scss";
 import { AiOutlineMail } from "react-icons/ai";
@@ -33,6 +34,8 @@ const Contact = () => {
   const handleChange = (e) => {
     setToSend({ ...toSend, [e.target.name]: e.target.value });
   };
+
+  let isPageWide = UseMediaQuery("(min-width: 769px)");
 
   return (
     <section id="contact" className="C_Container">
@@ -81,7 +84,7 @@ const Contact = () => {
               onChange={handleChange}
             ></textarea>
             <button type="submit" className="C_btn">
-              Send Message
+              {isPageWide ? "Send Message" : "Contact Us"}
             </button>
           </form>
           <div className="C_Info">
