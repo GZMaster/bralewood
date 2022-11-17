@@ -31,16 +31,19 @@
   margin-bottom: 20px;
 }
 .Card h6 {
-  font-weight: 500;
+  font-weight: 600;
   text-transform: capitalize;
   color: #000015;
   font-size: 20px;
   text-align: center;
-  margin: 0;
+  margin-bottom: 20px;
+  font-family: 'Raleway';
+  font-style: normal;
 }
 .Card p {
   font-size: 14px;
   line-height: 20px;
+  text-align: center;
 }
 @media screen and (min-width: 769px) and (max-width: 1199px) {
   .Card_Wrapper {
