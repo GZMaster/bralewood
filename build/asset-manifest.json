@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f1ee528b.css",
+    "main.js": "/static/js/main.917424a9.js",
+    "static/media/Contact Us Image.png": "/static/media/Contact Us Image.47a9ed9cf02eff1a286e.png",
+    "static/media/pexels-christina-morillo-1181408 1moreabout.png": "/static/media/pexels-christina-morillo-1181408 1moreabout.f2223ac36eeb768233cc.png",
+    "static/media/Mobile Contact Us Image.png": "/static/media/Mobile Contact Us Image.ff661269df2fd02e1d1a.png",
+    "static/media/Hero Image.png": "/static/media/Hero Image.925a737074d94bbe4172.png",
+    "static/media/Mobile Hero Image.png": "/static/media/Mobile Hero Image.cbb63554547a9d1ce46d.png",
+    "static/media/Mask groupmoreabout-welcome.png": "/static/media/Mask groupmoreabout-welcome.b833b3e62c7c9801402c.png",
+    "static/media/Logo.jpg": "/static/media/Logo.943c718ead9663c84693.jpg",
+    "static/media/MrEtukudo.jpg": "/static/media/MrEtukudo.6a61faef04c46c80f445.jpg",
+    "static/media/financialDecisionsImage.png": "/static/media/financialDecisionsImage.b6683eedf29f6e201356.png",
+    "static/media/Mask groupmoreabout-values2.png": "/static/media/Mask groupmoreabout-values2.567b40e218e4e42e8196.png",
+    "static/media/MrTheo.jpg": "/static/media/MrTheo.654411ec8dd6ec412f9c.jpg",
+    "static/media/Mask groupabout.png": "/static/media/Mask groupabout.c87de8cb87c14a60a781.png",
+    "static/media/Mask groupabout (1).png": "/static/media/Mask groupabout (1).3cb2e55b31351bb918b5.png",
+    "static/media/Mask groupabout (2).png": "/static/media/Mask groupabout (2).c15256b4177fe747b201.png",
+    "static/media/Mask groupabout (3).png": "/static/media/Mask groupabout (3).b274fd8e3156a47a02a6.png",
+    "static/media/Mask groupmoreabout-values1.png": "/static/media/Mask groupmoreabout-values1.73a23dc247ef73f23e2f.png",
+    "index.html": "/index.html",
+    "main.f1ee528b.css.map": "/static/css/main.f1ee528b.css.map",
+    "main.917424a9.js.map": "/static/js/main.917424a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1ee528b.css",
+    "static/js/main.917424a9.js"
+  ]
+}
