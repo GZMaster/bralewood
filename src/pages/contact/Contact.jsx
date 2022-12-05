@@ -110,7 +110,7 @@ const Contact = () => {
                 <FiPhoneCall />
                 <span>Call Us</span>
               </h3>
-              <h3 className="C_item-text">01-4545505</h3>
+              <h3 className="C_item-text">+234 810 248 0167</h3>
             </div>
           </div>
         </section>
