@@ -1,3 +1,4 @@
 {
-  "cSpell.words": ["Brale", "Bralewood"]
+  "cSpell.words": ["Brale", "Bralewood"],
+  "githubPullRequests.ignoredPullRequestBranches": ["master"]
 }
