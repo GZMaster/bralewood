@@ -1,5 +1,5 @@
 import mrTheo from "../assets/MrTheo.jpg";
-import mrEtukudo from "../assets/MrEtukudo.jpg";
+import mrEtukudo from "../assets/MrEtukudo2.jpg";
 
 const BoardData = [
   {
