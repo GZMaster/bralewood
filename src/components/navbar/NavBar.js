@@ -21,7 +21,7 @@ function NavBar() {
           <h3>info@bralewood.com</h3>
           <div className="nav_vl"></div>
           <img src={phoneIcon} alt="phone icon" />
-          <h3>01-4545505</h3>
+          <h3>+234 810 248 0167</h3>
         </div>
       </div>
       <header className="nav__component sticky">
