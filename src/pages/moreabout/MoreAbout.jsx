@@ -43,20 +43,21 @@ const MoreAbout = () => {
 					</p>
 					<p>
 						Vision: To be a leading provider of financial services in Africa
+					</p>
+					<span>
 						This means that our big hair goal or desired end-state of the
 						initial planning horizon shall be to be a leading provider of
-						financial services in Africa and the key elements of this vision are
-						as following:
-					</p>
+						financial services in Africa.
+					</span>
 					<p>
-						“a leading” – this means that we would be a pacesetter, we would be
-						associated with unequalled growth, that would position us at the
-						forefront of whatever space or industry in which we play. “financial
-						services” – this means that our primary focus would be services in
-						the financial space. Whatever interest we decide to enter into,
-						different from financial services would be peripheral to our
-						financial services business.
+						Mission: To provide world-class financial services, through
+						sustainable business practices.
 					</p>
+					<span>
+						This means that the reason we are in business or our reason for
+						being is to provide world- class financial services, through
+						sustainable business practices.
+					</span>
 				</div>
 				<div className="About_Image_Wrap">
 					<img src={One} className="A_Image" alt={One} />
