@@ -44,20 +44,10 @@ const MoreAbout = () => {
 					<p>
 						Vision: To be a leading provider of financial services in Africa
 					</p>
-					<span>
-						This means that our big hair goal or desired end-state of the
-						initial planning horizon shall be to be a leading provider of
-						financial services in Africa.
-					</span>
 					<p>
 						Mission: To provide world-class financial services, through
 						sustainable business practices.
 					</p>
-					<span>
-						This means that the reason we are in business or our reason for
-						being is to provide world- class financial services, through
-						sustainable business practices.
-					</span>
 				</div>
 				<div className="About_Image_Wrap">
 					<img src={One} className="A_Image" alt={One} />
