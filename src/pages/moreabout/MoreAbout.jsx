@@ -68,7 +68,7 @@ const MoreAbout = () => {
 							To achieve our vision of ‘To be a leading provider of financial
 							services in Africa’, we have defined a set of acceptable
 							behavioral attributes we expect to guide our people, (Directors,
-							Management and staff). Our future success will therefore be built
+							Management, and staff). Our future success will therefore be built
 							on the foundation of these core values:
 						</p>
 						<div className="I_Item_Wrapper">
@@ -79,7 +79,7 @@ const MoreAbout = () => {
 								<span>
 									Integrity: Our people shall demonstrate the highest standards
 									of ethical principles and soundness of moral character which
-									shall not be called to question at anytime  Passion
+									shall not be called to question at any time.
 								</span>
 							</div>
 							<div className="I_Item">
@@ -89,7 +89,7 @@ const MoreAbout = () => {
 								<span>
 									Passion: We will exhibit unparalleled zeal in serving our
 									clients and other stakeholders and we will be true to
-									Bralewood’s vision to be a leading financial services
+									Bralewood’s vision to be a leading financial service
 								</span>
 							</div>
 							<div className="I_Item">
@@ -120,7 +120,7 @@ const MoreAbout = () => {
 								<span>
 									Speed (Timeliness): Our services will be characterized by a
 									high level of accuracy driven primarily by our extensive use
-									of technology
+									of technology.
 								</span>
 							</div>
 						</div>
@@ -133,8 +133,8 @@ const MoreAbout = () => {
 			</div>
 			<div className="A_Contact">
 				<p className="A_Contact_Text">
-					We are committed to our Clients’ Growth andImprovement, and introduce
-					world-class proven Innovations, Ideas, Products and Services to suit
+					We are committed to our Clients’ Growth and improvement and introduce
+					world-class proven Innovations, Ideas, Products, and Services to suit
 					their needs. With our team of experts in various fields, our aim is to
 					create value for our clients and their organizations. We will ensure
 					that our unique services are delivered as promised.
