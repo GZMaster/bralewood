@@ -60,64 +60,36 @@ const MoreAbout = () => {
 							Our
 							<span className="I_Orange"> Core </span> Values
 						</h3>
-						<p>
-							To achieve our vision of ‘To be a leading provider of financial
-							services in Africa’, we have defined a set of acceptable
-							behavioral attributes we expect to guide our people, (Directors,
-							Management, and staff). Our future success will therefore be built
-							on the foundation of these core values:
-						</p>
 						<div className="I_Item_Wrapper">
 							<div className="I_Item">
 								<div className="I_ItemIcon">
 									<FiCheckCircle />
 								</div>
-								<span>
-									Integrity: Our people shall demonstrate the highest standards
-									of ethical principles and soundness of moral character which
-									shall not be called to question at any time.
-								</span>
+								<span>Integrity</span>
 							</div>
 							<div className="I_Item">
 								<div className="I_ItemIcon">
 									<FiCheckCircle />
 								</div>
-								<span>
-									Passion: We will exhibit unparalleled zeal in serving our
-									clients and other stakeholders and we will be true to
-									Bralewood’s vision to be a leading financial service
-								</span>
+								<span>Passion</span>
 							</div>
 							<div className="I_Item">
 								<div className="I_ItemIcon">
 									<FiCheckCircle />
 								</div>
-								<span>
-									Professionalism: Our people shall develop and exhibit the
-									highest standard of skills and competencies in conducting
-									business with customers and other stakeholders
-								</span>
+								<span>Professionalism</span>
 							</div>
 							<div className="I_Item">
 								<div className="I_ItemIcon">
 									<FiCheckCircle />
 								</div>
-								<span>
-									Reliability: Reliability that builds trust and loyalty will be
-									at the heart of our relationships with our clients. We will
-									not be associated with the usual sub-standard service that
-									characterizes some of the companies operating in the industry.
-								</span>
+								<span>Reliability</span>
 							</div>
 							<div className="I_Item">
 								<div className="I_ItemIcon">
 									<FiCheckCircle />
 								</div>
-								<span>
-									Speed (Timeliness): Our services will be characterized by a
-									high level of accuracy driven primarily by our extensive use
-									of technology.
-								</span>
+								<span>Speed (I.P.P.R.S)</span>
 							</div>
 						</div>
 					</div>
