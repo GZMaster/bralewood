@@ -28,26 +28,22 @@ const MoreAbout = () => {
 						INVESTMENTS LTD
 					</h3>
 					<p>
-						An opportunity exists in Nigeria at the moment to take advantage of
-						the stable foreign exchange market and the potential for increased
-						micro lending spurred by the growth objectives of the current
-						government and create a company that can impact the financial
-						intermediation. Bralewood Investment Limited was designed to address
-						this market need and fill the market gap for a technology-led
-						financial intermediation company that can meet the needs and
-						aspirations of both sell-side and buy-side customers in the foreign
-						exchange market as well as other financial intermediation customers
-						in an efficient and cost-effective manner. The convergence of these
-						two opportunities has led to the unique directional philosophy for
-						the company as described below:
+						Bralewood Investments Limited is a technology-led financial
+						intermediation company that can meet the needs and aspirations of
+						both sell-side and buy-side customers in the foreign exchange market
+						as well as other financial intermediation customers in an efficient
+						and cost-effective manner. The convergence of these two
+						opportunities has led to the unique directional philosophy for the
+						company as described below in Our Mission, Our Vision, and Core
+						Values.
 					</p>
+					<h3>Our Mission</h3>
 					<p>
-						Vision: To be a leading provider of financial services in Africa
+						To provide world-class financial services, through sustainable
+						business practices.
 					</p>
-					<p>
-						Mission: To provide world-class financial services, through
-						sustainable business practices.
-					</p>
+					<h3>Our Vision</h3>
+					<p>To be a leading provider of financial services in Africa</p>
 				</div>
 				<div className="About_Image_Wrap">
 					<img src={One} className="A_Image" alt={One} />
@@ -64,64 +60,36 @@ const MoreAbout = () => {
 							Our
 							<span className="I_Orange"> Core </span> Values
 						</h3>
-						<p>
-							To achieve our vision of ‘To be a leading provider of financial
-							services in Africa’, we have defined a set of acceptable
-							behavioral attributes we expect to guide our people, (Directors,
-							Management, and staff). Our future success will therefore be built
-							on the foundation of these core values:
-						</p>
 						<div className="I_Item_Wrapper">
 							<div className="I_Item">
 								<div className="I_ItemIcon">
 									<FiCheckCircle />
 								</div>
-								<span>
-									Integrity: Our people shall demonstrate the highest standards
-									of ethical principles and soundness of moral character which
-									shall not be called to question at any time.
-								</span>
+								<span>Integrity</span>
 							</div>
 							<div className="I_Item">
 								<div className="I_ItemIcon">
 									<FiCheckCircle />
 								</div>
-								<span>
-									Passion: We will exhibit unparalleled zeal in serving our
-									clients and other stakeholders and we will be true to
-									Bralewood’s vision to be a leading financial service
-								</span>
+								<span>Passion</span>
 							</div>
 							<div className="I_Item">
 								<div className="I_ItemIcon">
 									<FiCheckCircle />
 								</div>
-								<span>
-									Professionalism: Our people shall develop and exhibit the
-									highest standard of skills and competencies in conducting
-									business with customers and other stakeholders
-								</span>
+								<span>Professionalism</span>
 							</div>
 							<div className="I_Item">
 								<div className="I_ItemIcon">
 									<FiCheckCircle />
 								</div>
-								<span>
-									Reliability: Reliability that builds trust and loyalty will be
-									at the heart of our relationships with our clients. We will
-									not be associated with the usual sub-standard service that
-									characterizes some of the companies operating in the industry.
-								</span>
+								<span>Reliability</span>
 							</div>
 							<div className="I_Item">
 								<div className="I_ItemIcon">
 									<FiCheckCircle />
 								</div>
-								<span>
-									Speed (Timeliness): Our services will be characterized by a
-									high level of accuracy driven primarily by our extensive use
-									of technology.
-								</span>
+								<span>Speed (I.P.P.R.S)</span>
 							</div>
 						</div>
 					</div>
@@ -133,11 +101,11 @@ const MoreAbout = () => {
 			</div>
 			<div className="A_Contact">
 				<p className="A_Contact_Text">
-					We are committed to our Clients’ Growth and improvement and introduce
-					world-class proven Innovations, Ideas, Products, and Services to suit
-					their needs. With our team of experts in various fields, our aim is to
-					create value for our clients and their organizations. We will ensure
-					that our unique services are delivered as promised.
+					We are committed to our Clients’ Growth and improvement by introducing
+					world-class proven Innovations, Ideas, Products, and Services tailored
+					to suit their needs. With our team of experts in various fields, our
+					aim is to create value for our clients and their organizations. We
+					will ensure that our unique services are delivered as promised.
 				</p>
 				<NavLink className="A_Btn" to={"/"}>
 					Contact Us

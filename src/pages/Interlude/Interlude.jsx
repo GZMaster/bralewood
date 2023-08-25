@@ -38,8 +38,7 @@ const Interlude = () => {
 								<FiCheckCircle />
 							</div>
 							<span>
-								Our services are rendered to the highest degree of excellence,
-								you won’t be disappointed you chose us,
+								Our services are rendered at the highest degree of excellence.
 							</span>
 						</div>
 						<div className="I_Item">
@@ -47,7 +46,7 @@ const Interlude = () => {
 								<FiCheckCircle />
 							</div>
 							<span>
-								Competitive pricing to ensure you have the overall best
+								We offer competitive pricing to ensure you have the overall best
 								experience with us.
 							</span>
 						</div>

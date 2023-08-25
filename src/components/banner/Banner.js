@@ -11,10 +11,10 @@ const Banner = () => {
 						World-class financial services, We are <b>BRALEWOOD.</b>
 					</h3>
 					<p>
-						Here at Bralewood, we’re committed to doing all we can to ensure you
-						have the best experience with the variety of financial services we
-						offer. Some of these include foreign exchange transactions, business
-						consulting, cash deliveries, and many more.
+						Here at Bralewood, we provide the best experience with the variety
+						of financial services we offer. Some of these include foreign
+						exchange transactions, business consulting, cash deliveries, and
+						many more.
 					</p>
 				</div>
 				<Link activeClass="active" smooth spy to="contact">

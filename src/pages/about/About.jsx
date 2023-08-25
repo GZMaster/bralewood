@@ -18,11 +18,11 @@ const About = () => {
 					</div>
 					<h3 className="A_Text_Header">We are the best Investment Platform</h3>
 					<p>
-						Bralewood Investment Limited is one of Nigeria’s leading providers
+						Bralewood Investments Limited is one of Nigeria’s leading providers
 						of foreign exchange-related services and all-around financial
 						solutions. Our clientele base spans various industries such as
 						construction, telecommunications, IT, breweries, etc. With a team of
-						professional and passion-driven individuals, our primary goal is to
+						professionals and passion-driven individuals, our primary goal is to
 						create a financial utopia for our clients as they deserve nothing
 						less.
 					</p>
