@@ -28,26 +28,22 @@ const MoreAbout = () => {
 						INVESTMENTS LTD
 					</h3>
 					<p>
-						An opportunity exists in Nigeria at the moment to take advantage of
-						the stable foreign exchange market and the potential for increased
-						micro lending spurred by the growth objectives of the current
-						government and create a company that can impact the financial
-						intermediation. Bralewood Investment Limited was designed to address
-						this market need and fill the market gap for a technology-led
-						financial intermediation company that can meet the needs and
-						aspirations of both sell-side and buy-side customers in the foreign
-						exchange market as well as other financial intermediation customers
-						in an efficient and cost-effective manner. The convergence of these
-						two opportunities has led to the unique directional philosophy for
-						the company as described below:
+						Bralewood Investments Limited is a technology-led financial
+						intermediation company that can meet the needs and aspirations of
+						both sell-side and buy-side customers in the foreign exchange market
+						as well as other financial intermediation customers in an efficient
+						and cost-effective manner. The convergence of these two
+						opportunities has led to the unique directional philosophy for the
+						company as described below in Our Mission, Our Vision, and Core
+						Values.
 					</p>
+					<h3>Our Mission</h3>
 					<p>
-						Vision: To be a leading provider of financial services in Africa
+						To provide world-class financial services, through sustainable
+						business practices.
 					</p>
-					<p>
-						Mission: To provide world-class financial services, through
-						sustainable business practices.
-					</p>
+					<h3>Our Vision</h3>
+					<p>To be a leading provider of financial services in Africa</p>
 				</div>
 				<div className="About_Image_Wrap">
 					<img src={One} className="A_Image" alt={One} />
@@ -133,11 +129,11 @@ const MoreAbout = () => {
 			</div>
 			<div className="A_Contact">
 				<p className="A_Contact_Text">
-					We are committed to our Clients’ Growth and improvement and introduce
-					world-class proven Innovations, Ideas, Products, and Services to suit
-					their needs. With our team of experts in various fields, our aim is to
-					create value for our clients and their organizations. We will ensure
-					that our unique services are delivered as promised.
+					We are committed to our Clients’ Growth and improvement by introducing
+					world-class proven Innovations, Ideas, Products, and Services tailored
+					to suit their needs. With our team of experts in various fields, our
+					aim is to create value for our clients and their organizations. We
+					will ensure that our unique services are delivered as promised.
 				</p>
 				<NavLink className="A_Btn" to={"/"}>
 					Contact Us
