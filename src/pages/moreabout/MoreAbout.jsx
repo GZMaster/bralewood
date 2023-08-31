@@ -60,7 +60,11 @@ const MoreAbout = () => {
 							Our
 							<span className="I_Orange"> Core </span> Values
 						</h3>
-						<div className="I_Item_Wrapper">
+						<p>
+							Integrity, Passion, Professionalism, Reliability, Speed
+							(I.P.P.R.S)
+						</p>
+						{/* <div className="I_Item_Wrapper">
 							<div className="I_Item">
 								<div className="I_ItemIcon">
 									<FiCheckCircle />
@@ -91,7 +95,7 @@ const MoreAbout = () => {
 								</div>
 								<span>Speed (I.P.P.R.S)</span>
 							</div>
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</div>

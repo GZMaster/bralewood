@@ -168,8 +168,8 @@ html {
 .I_Right {
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
-	justify-content: space-between;
+	gap: 20px;
+	justify-content: flex-start;
 }
 .I_Item {
 	display: flex;
