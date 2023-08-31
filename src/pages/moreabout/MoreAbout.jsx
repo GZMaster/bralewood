@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./MoreAbout.scss";
 import One from "../../assets/bralewood assets/Mask groupmoreabout-welcome.png";
-import { FiCheckCircle } from "react-icons/fi";
+// import { FiCheckCircle } from "react-icons/fi";
 import Pic from "../../assets/bralewood assets/Mask groupmoreabout-values1.png";
 import Pic2 from "../../assets/bralewood assets/Mask groupmoreabout-values2.png";
 import BoardData from "../../Data/BoardData";
