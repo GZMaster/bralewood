@@ -10,7 +10,7 @@ import SuccessfulNotification from "../../components/notification/SuccessfulNoti
 
 const Contact = () => {
 	const [toSend, setToSend] = useState({
-		from_name: "",
+		from_name: "Bralewood",
 		to_name: "Bralewood",
 		message: "",
 		reply_to: "info@bralewood.com",
